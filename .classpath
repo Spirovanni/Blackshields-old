@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="enumeration/" kind="src" path="barbican/node_modules/generator-jhipster/generators/entity-server/templates/src/main/java/package/domain"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/entity-server/templates/src/main/java/package/domain/enumeration"/>
+	<classpathentry excluding="search/" kind="src" path="barbican/node_modules/generator-jhipster/generators/entity-server/templates/src/main/java/package/repository"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/entity-server/templates/src/main/java/package/repository/search"/>
+	<classpathentry excluding="dto/|mapper/|impl/" kind="src" path="barbican/node_modules/generator-jhipster/generators/entity-server/templates/src/main/java/package/service"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/entity-server/templates/src/main/java/package/service/dto"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/entity-server/templates/src/main/java/package/service/impl"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/entity-server/templates/src/main/java/package/service/mapper"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/entity-server/templates/src/main/java/package/web/rest"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/entity-server/templates/src/test/java/package/web/rest"/>
+	<classpathentry excluding="service/|security/jwt/|repository/search/|security/social/|domain/|web/rest/util/|web/filter/|service/util/|security/oauth2/|web/websocket/dto/|aop/logging/|config/social/|client/|gateway/ratelimiting/|gateway/|config/cassandra/|service/dto/|security/|config/metrics/|config/dbmigrations/|web/websocket/|config/oauth2/|config/apidoc/|web/rest/|repository/|web/rest/errors/|config/|config/audit/|gateway/accesscontrol/|web/rest/vm/|gateway/responserewriting/|service/mapper/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/aop/logging"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/client"/>
+	<classpathentry excluding="social/|cassandra/|metrics/|dbmigrations/|oauth2/|apidoc/|audit/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/apidoc"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/audit"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/cassandra"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/dbmigrations"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/metrics"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/oauth2"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/social"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/domain"/>
+	<classpathentry excluding="ratelimiting/|accesscontrol/|responserewriting/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/accesscontrol"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/ratelimiting"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/gateway/responserewriting"/>
+	<classpathentry excluding="search/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/repository"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/repository/search"/>
+	<classpathentry excluding="jwt/|social/|oauth2/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security/jwt"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security/oauth2"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/security/social"/>
+	<classpathentry excluding="util/|dto/|mapper/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/dto"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/mapper"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/service/util"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/filter"/>
+	<classpathentry excluding="util/|errors/|vm/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/errors"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/util"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/rest/vm"/>
+	<classpathentry excluding="dto/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/websocket"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/web/websocket/dto"/>
+	<classpathentry excluding="web/rest/errors/|cucumber/stepdefs/|cucumber/|gateway/responserewriting/|config/|web/rest/|security/oauth2/|config/elasticsearch/|service/|web/rest/util/|repository/|security/jwt/|security/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package"/>
+	<classpathentry excluding="elasticsearch/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/config"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/config/elasticsearch"/>
+	<classpathentry excluding="stepdefs/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/cucumber"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/cucumber/stepdefs"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/gateway/responserewriting"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/repository"/>
+	<classpathentry excluding="oauth2/|jwt/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/security"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/security/jwt"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/security/oauth2"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/service"/>
+	<classpathentry excluding="errors/|util/" kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/web/rest"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/web/rest/errors"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/server/templates/src/test/java/package/web/rest/util"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/spring-controller/templates/src/main/java/package/web/rest"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/spring-controller/templates/src/test/java/package/web/rest"/>
+	<classpathentry excluding="impl/" kind="src" path="barbican/node_modules/generator-jhipster/generators/spring-service/templates/src/main/java/package/service"/>
+	<classpathentry kind="src" path="barbican/node_modules/generator-jhipster/generators/spring-service/templates/src/main/java/package/service/impl"/>
+	<classpathentry kind="src" path="barbican/src/main/java"/>
+	<classpathentry kind="src" path="barbican/src/test/java"/>
+	<classpathentry kind="src" path="barbican/target/generated-sources/annotations"/>
+	<classpathentry kind="src" path="registry/src/main/java"/>
+	<classpathentry kind="src" path="registry/src/test/java"/>
+	<classpathentry kind="lib" path="barbican/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="barbican/node_modules/generator-jhipster/generators/server/templates/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="barbican/node_modules/generator-jhipster/generators/server/templates/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="barbican/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.8.1.jar"/>
+	<classpathentry kind="lib" path="registry/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="barbican/target/classes"/>
+</classpath>
