@@ -108,7 +108,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/barbican/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="4" />
     <option name="width" value="1328" />
     <option name="height" value="724" />
@@ -354,15 +354,15 @@
       <updated>1513978722238</updated>
       <workItem from="1513978724582" duration="7216000" />
       <workItem from="1513994032002" duration="11608000" />
-      <workItem from="1514014770179" duration="27825000" />
+      <workItem from="1514014770179" duration="28282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46649000" />
+    <option name="totallyTimeSpent" value="47106000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="4" width="1328" height="724" extended-state="0" />
+    <frame x="0" y="4" width="1328" height="724" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
