@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40b8fc28-4e78-4940-ada5-1181fb4eace6" name="Default" comment="" />
+    <list default="true" id="40b8fc28-4e78-4940-ada5-1181fb4eace6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/armory/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/registry/LICENSE.txt" afterPath="$PROJECT_DIR$/registry/LICENSE.txt" />
+      <change beforePath="$PROJECT_DIR$/registry/NOTICE" afterPath="$PROJECT_DIR$/registry/NOTICE" />
+      <change beforePath="$PROJECT_DIR$/registry/jhipster-registry.log.1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/registry/jhipster-registry.log.2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/registry/package.json" afterPath="$PROJECT_DIR$/registry/package.json" />
+      <change beforePath="$PROJECT_DIR$/registry/pom.xml" afterPath="$PROJECT_DIR$/registry/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/registry/src/main/java/io/github/jhipster/registry/config/OAuth2SsoConfiguration.java" afterPath="$PROJECT_DIR$/registry/src/main/java/io/github/jhipster/registry/config/OAuth2SsoConfiguration.java" />
+      <change beforePath="$PROJECT_DIR$/registry/src/main/resources/config/application-oauth2.yml" afterPath="$PROJECT_DIR$/registry/src/main/resources/config/application-oauth2.yml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +21,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,7 +49,6 @@
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/data/carousel/carouseldemo.route.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/home/home.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/home/home.module.ts" />
-        <option value="$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/entities/points/points.component.html" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/entities/points/points.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/entities/points/points-dialog.component.ts" />
@@ -37,6 +58,7 @@
         <option value="$PROJECT_DIR$/barbican/src/main/java/com/spirovanni/blackshields/web/rest/PointsResource.java" />
         <option value="$PROJECT_DIR$/barbican/src/main/java/com/spirovanni/blackshields/repository/PointsRepository.java" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml" />
       </list>
     </option>
   </component>
@@ -54,11 +76,11 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/armory/node_modules" />
-    <handled-path value="$PROJECT_DIR$/barbican/.gradle/yarn/yarn-latest/node_modules" />
     <handled-path value="$PROJECT_DIR$/barbican/node_modules" />
+    <handled-path value="$PROJECT_DIR$/registry/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="4" />
+    <option name="x" value="110" />
     <option name="width" value="1253" />
     <option name="height" value="724" />
   </component>
@@ -77,9 +99,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,7 +114,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,15 +244,16 @@
       <workItem from="1514647520987" duration="5427000" />
       <workItem from="1514857663827" duration="65000" />
       <workItem from="1514858230923" duration="7726000" />
-      <workItem from="1515396977670" duration="2967000" />
+      <workItem from="1515396977670" duration="5666000" />
+      <workItem from="1515482901942" duration="4407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85965000" />
+    <option name="totallyTimeSpent" value="93071000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="4" width="1253" height="724" extended-state="0" />
+    <frame x="110" y="0" width="1253" height="724" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -239,19 +262,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33955857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50933784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15926236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16177703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -272,7 +295,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/inputs/chips/chipsdemo.component.html" />
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/inputs/chips/chipsdemo.module.ts" />
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/primeng.module.ts" />
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.component.html">
@@ -371,13 +393,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/data/carousel/carouseldemo.module.ts" />
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/barbican/src/main/java/com/spirovanni/blackshields/web/rest/PreferencesResource.java" />
     <entry file="file://$PROJECT_DIR$/barbican/src/main/java/com/spirovanni/blackshields/BarbicanApp.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -440,13 +455,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/i18n/en/points.json" />
-    <entry file="file://$PROJECT_DIR$/barbican/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="108" column="33" lean-forward="false" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/entities/points/points-dialog.component2.html" />
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/entities/points/points-dialog.component.ts" />
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/entities/points/points-dialog.component.html" />
@@ -464,6 +472,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="78" lean-forward="false" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="108" column="19" lean-forward="false" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/postcss.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
