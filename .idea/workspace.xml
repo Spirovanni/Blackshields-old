@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="40b8fc28-4e78-4940-ada5-1181fb4eace6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/armory/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/registry/LICENSE.txt" afterPath="$PROJECT_DIR$/registry/LICENSE.txt" />
-      <change beforePath="$PROJECT_DIR$/registry/NOTICE" afterPath="$PROJECT_DIR$/registry/NOTICE" />
-      <change beforePath="$PROJECT_DIR$/registry/jhipster-registry.log.1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/registry/jhipster-registry.log.2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/registry/package.json" afterPath="$PROJECT_DIR$/registry/package.json" />
-      <change beforePath="$PROJECT_DIR$/registry/pom.xml" afterPath="$PROJECT_DIR$/registry/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/registry/src/main/java/io/github/jhipster/registry/config/OAuth2SsoConfiguration.java" afterPath="$PROJECT_DIR$/registry/src/main/java/io/github/jhipster/registry/config/OAuth2SsoConfiguration.java" />
-      <change beforePath="$PROJECT_DIR$/registry/src/main/resources/config/application-oauth2.yml" afterPath="$PROJECT_DIR$/registry/src/main/resources/config/application-oauth2.yml" />
+      <change beforePath="$PROJECT_DIR$/registry/src/main/webapp/app/shared/refresh/refresh-selector.component.scss" afterPath="$PROJECT_DIR$/registry/src/main/webapp/app/shared/refresh/refresh-selector.component.scss" />
+      <change beforePath="$PROJECT_DIR$/registry/src/main/webapp/app/shared/routes/route-selector.component.scss" afterPath="$PROJECT_DIR$/registry/src/main/webapp/app/shared/routes/route-selector.component.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +15,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barbican/target/www/swagger-ui/dist/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="3039" lean-forward="false" selection-start-line="0" selection-start-column="3039" selection-end-line="0" selection-end-column="3039" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="refresh-selector.component.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/registry/src/main/webapp/app/shared/refresh/refresh-selector.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="route-selector.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registry/src/main/webapp/app/shared/routes/route-selector.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="refresh-selector.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registry/src/main/webapp/app/shared/refresh/refresh-selector.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/barbican/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="118" column="26" lean-forward="false" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -59,6 +124,9 @@
         <option value="$PROJECT_DIR$/barbican/src/main/java/com/spirovanni/blackshields/repository/PointsRepository.java" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml" />
+        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.scss" />
+        <option value="$PROJECT_DIR$/registry/src/main/webapp/app/shared/routes/route-selector.component.scss" />
+        <option value="$PROJECT_DIR$/registry/src/main/webapp/app/shared/refresh/refresh-selector.component.scss" />
       </list>
     </option>
   </component>
@@ -80,9 +148,10 @@
     <handled-path value="$PROJECT_DIR$/registry/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="110" />
+    <option name="x" value="34" />
+    <option name="y" value="48" />
     <option name="width" value="1253" />
-    <option name="height" value="724" />
+    <option name="height" value="657" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -110,6 +179,169 @@
               <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
               <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="navbar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="swagger-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="swagger-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="swagger-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="refresh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,6 +352,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/barbican/build.gradle" />
+    <property name="SearchEverywhereHistoryKey" value=".dropdown-menu&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -245,15 +478,15 @@
       <workItem from="1514857663827" duration="65000" />
       <workItem from="1514858230923" duration="7726000" />
       <workItem from="1515396977670" duration="5666000" />
-      <workItem from="1515482901942" duration="4407000" />
+      <workItem from="1515482901942" duration="17488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93071000" />
+    <option name="totallyTimeSpent" value="106152000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="110" y="0" width="1253" height="724" extended-state="0" />
+    <frame x="34" y="48" width="1253" height="657" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -264,7 +497,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50933784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51341" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16177703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -296,23 +529,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/inputs/chips/chipsdemo.module.ts" />
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/primeng.module.ts" />
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="75" lean-forward="false" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/inputs/chips/chipsdemo.component.html" />
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/inputs/chips/chipsdemo.module.ts" />
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/inputs/chips/chipsdemo.route.ts" />
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/active-menu.directive.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -325,13 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -475,14 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="108" column="19" lean-forward="false" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/barbican/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -495,6 +696,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="118" column="26" lean-forward="false" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/target/www/swagger-ui/dist/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3039" lean-forward="false" selection-start-line="0" selection-start-column="3039" selection-end-line="0" selection-end-column="3039" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registry/src/main/webapp/app/shared/routes/route-selector.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registry/src/main/webapp/app/shared/refresh/refresh-selector.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registry/src/main/webapp/app/shared/refresh/refresh-selector.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>
