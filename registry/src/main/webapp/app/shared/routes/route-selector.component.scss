@@ -5,9 +5,10 @@ Route selector styles
 .route-selector {
     margin-top: 1%;
     margin-bottom: 2%;
-    padding-left: 0;
+    padding-left: 2rem;
     .dropdown {
         margin-right: 10px;
+        margin-left: 10px;
         .dropdown-menu {
             border-color: darkgrey;
             .search {
@@ -15,6 +16,7 @@ Route selector styles
             }
             .dropdown-item { /* routes names */
                 margin-right: 0.5rem;
+                margin-left: 1.5rem;
                 word-break: break-all;
                 display: block;
                 display: -webkit-flex;
