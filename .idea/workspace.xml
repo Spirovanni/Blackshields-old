@@ -59,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/bootstrap/basictypography/basic-typography.route.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -510,12 +510,12 @@
       <workItem from="1515228194307" duration="27407000" />
       <workItem from="1515318854221" duration="19478000" />
       <workItem from="1515382705312" duration="6642000" />
-      <workItem from="1515918936440" duration="7529000" />
+      <workItem from="1515918936440" duration="7932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166400000" />
+    <option name="totallyTimeSpent" value="166803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="5" width="1280" height="722" extended-state="0" />
@@ -796,7 +796,7 @@
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/bootstrap/basictypography/basic-typography.route.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
