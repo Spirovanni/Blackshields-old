@@ -2,6 +2,6 @@
 
   git add .
  
-  git commit -m "Add cute octocat story"
+  git commit -m "Update notes on status"
 
   git push -u origin master
