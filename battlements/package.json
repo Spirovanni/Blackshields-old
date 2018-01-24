@@ -29,7 +29,14 @@
     "rxjs": "5.5.5",
     "swagger-ui": "2.2.10",
     "tether": "1.4.0",
-    "zone.js": "0.8.16"
+    "zone.js": "0.8.16",
+    "@angular/animations": "5.1.0",
+    "primeng": "5.2.0-rc.1",
+    "primeng-extensions": "~0.0.40",
+    "chart.js": "2.6.0",
+    "moment": "2.18.1",
+    "fullcalendar": "3.5.0",
+    "quill": "1.3.2"
   },
   "devDependencies": {
     "@angular/cli": "1.6.0",
@@ -75,6 +82,7 @@
     "node-sass": "4.5.3",
     "postcss-loader": "2.0.9",
     "xml2js": "0.4.17",
+    "generator-jhipster-primeng": "2.0.34",
     "uglifyjs-webpack-plugin": "1.1.5",
     "webpack": "3.10.0",
     "webpack-dev-server": "2.9.5",
