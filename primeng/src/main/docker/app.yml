@@ -9,7 +9,7 @@ services:
             - SPRING_DATASOURCE_URL=jdbc:mysql://primeng-mysql:3306/primeng?useUnicode=true&characterEncoding=utf8&useSSL=false
             - JHIPSTER_SLEEP=30 # gives time for the JHipster Registry to boot before the application
         ports:
-            - 8000:8000
+            - 8080:8080
     primeng-mysql:
         extends:
             file: mysql.yml
