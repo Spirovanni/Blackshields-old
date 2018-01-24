@@ -39,6 +39,9 @@ public class CacheConfiguration {
         return cm -> {
             cm.createCache(com.spirovanni.blackshields.repository.UserRepository.USERS_BY_LOGIN_CACHE, jcacheConfiguration);
             cm.createCache(com.spirovanni.blackshields.repository.UserRepository.USERS_BY_EMAIL_CACHE, jcacheConfiguration);
+            cm.createCache(com.spirovanni.blackshields.domain.User.class.getName(), jcacheConfiguration);
+            cm.createCache(com.spirovanni.blackshields.domain.Authority.class.getName(), jcacheConfiguration);
+            cm.createCache(com.spirovanni.blackshields.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

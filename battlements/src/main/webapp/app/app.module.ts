@@ -13,6 +13,7 @@ import { BattlementsEntityModule } from './entities/entity.module';
 import { customHttpProvider } from './blocks/interceptor/http.provider';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
 
+import { BattlementsprimengModule } from './primeng/primeng.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 
 import {
@@ -34,6 +35,7 @@ import {
         BattlementsAdminModule,
         BattlementsAccountModule,
         BattlementsEntityModule,
+        BattlementsprimengModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
