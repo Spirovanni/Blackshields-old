@@ -13,6 +13,7 @@ import { PrimengEntityModule } from './entities/entity.module';
 import { customHttpProvider } from './blocks/interceptor/http.provider';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
 
+import { PrimengprimengModule } from './primeng/primeng.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 
 import {
@@ -35,6 +36,7 @@ import {
         PrimengAdminModule,
         PrimengAccountModule,
         PrimengEntityModule,
+        PrimengprimengModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
