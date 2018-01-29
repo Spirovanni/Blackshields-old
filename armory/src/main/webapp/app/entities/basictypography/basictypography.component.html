@@ -1,0 +1,90 @@
+<div>
+    <h2>
+        <span jhiTranslate="armoryApp.basictypography.home.title">Basictypographies</span>
+        <button class="btn btn-primary float-right jh-create-entity create-basictypography" [routerLink]="['/', { outlets: { popup: ['basictypography-new'] } }]">
+            <span class="fa fa-plus"></span>
+            <span class="hidden-sm-down"  jhiTranslate="armoryApp.basictypography.home.createLabel">
+            Create new Basictypography
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <div class="row">
+        <div class="col-sm-12">
+            <form name="searchForm" class="form-inline">
+                <div class="input-group w-100 mt-3">
+                    <input type="text" class="form-control" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'armoryApp.basictypography.home.search' | translate }}">
+                    <button class="input-group-addon btn btn-info" (click)="search(currentSearch)">
+                        <span class="fa fa-search"></span>
+                    </button>
+                    <button class="input-group-addon btn btn-danger" (click)="clear()" *ngIf="currentSearch">
+                        <span class="fa fa-trash-o"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive" *ngIf="basictypographies">
+        <table class="table table-striped">
+            <thead>
+            <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="transition.bind(this)">
+            <th jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="date"><span jhiTranslate="armoryApp.basictypography.date">Date</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="stage"><span jhiTranslate="armoryApp.basictypography.stage">Stage</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="description"><span jhiTranslate="armoryApp.basictypography.description">Description</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="picture"><span jhiTranslate="armoryApp.basictypography.picture">Picture</span> <span class="fa fa-sort"></span></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let basictypography of basictypographies ;trackBy: trackId">
+                <td><a [routerLink]="['../basictypography', basictypography.id ]">{{basictypography.id}}</a></td>
+                <td>{{basictypography.date | date:'mediumDate'}}</td>
+                <td jhiTranslate="{{'armoryApp.Stage.' + basictypography.stage}}">{{basictypography.stage}}</td>
+                <td>{{basictypography.description}}</td>
+                <td>
+                    <a *ngIf="basictypography.picture" (click)="openFile(basictypography.pictureContentType, basictypography.picture)">
+                        <img [src]="'data:' + basictypography.pictureContentType + ';base64,' + basictypography.picture" style="max-height: 30px;" alt="basictypography image"/>
+                    </a>
+                    <span *ngIf="basictypography.picture">{{basictypography.pictureContentType}}, {{byteSize(basictypography.picture)}}</span>
+                </td>
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['../basictypography', basictypography.id ]"
+                                class="btn btn-info btn-sm">
+                            <span class="fa fa-eye"></span>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'basictypography/'+ basictypography.id + '/edit'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-primary btn-sm">
+                            <span class="fa fa-pencil"></span>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'basictypography/'+ basictypography.id + '/delete'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-danger btn-sm">
+                            <span class="fa fa-remove"></span>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div *ngIf="basictypographies && basictypographies.length">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="queryCount" [maxSize]="5" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="page" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage(page)"></ngb-pagination>
+        </div>
+    </div>
+</div>

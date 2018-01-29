@@ -1,0 +1,43 @@
+
+<div *ngIf="basictypography">
+    <h2><span jhiTranslate="armoryApp.basictypography.detail.title">Basictypography</span> {{basictypography.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="armoryApp.basictypography.date">Date</span></dt>
+        <dd>
+            <span>{{basictypography.date | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.basictypography.stage">Stage</span></dt>
+        <dd>
+            <span jhiTranslate="{{'armoryApp.Stage.' + basictypography.stage}}">{{basictypography.stage}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.basictypography.description">Description</span></dt>
+        <dd>
+            <span>{{basictypography.description}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.basictypography.picture">Picture</span></dt>
+        <dd>
+            <div *ngIf="basictypography.picture">
+                <a (click)="openFile(basictypography.pictureContentType, basictypography.picture)">
+                    <img [src]="'data:' + basictypography.pictureContentType + ';base64,' + basictypography.picture" style="max-width: 100%;" alt="basictypography image"/>
+                </a>
+                {{basictypography.pictureContentType}}, {{byteSize(basictypography.picture)}}
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'basictypography/'+ basictypography.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

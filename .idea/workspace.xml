@@ -2,8 +2,262 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b8fc28-4e78-4940-ada5-1181fb4eace6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/avatars/man.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/avatars/women.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/browsers/firefox.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/browsers/ie.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/browsers/safari.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/cars/Golf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/cars/Jetta.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/cars/Passat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/cars/Polo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/cars/Scirocco.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/cars/Touareg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/cars/Yeni.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ae.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/af.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/al.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/am.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ao.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/at.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/au.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/az.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ba.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/be.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bj.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/br.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bs.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/by.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/bz.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ca.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/cd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/cf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/cg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ch.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ci.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/cl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/cm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/cn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/co.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/cr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/cu.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/cv.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/cy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/cz.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/de.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/dj.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/dk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/dm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/do.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/dz.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ec.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ee.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/eg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/eh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/er.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/es.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/et.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/fi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/fj.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/fm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/fr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ga.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/gb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/gd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ge.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/gh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/gm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/gn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/gq.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/gr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/gt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/gw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/gy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/hn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/hr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ht.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/hu.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/id.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ie.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/il.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/in.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/iq.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ir.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/is.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/it.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/jm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/jo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/jp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ke.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/kg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/kh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ki.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/km.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/kn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/kp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/kr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ks.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/kw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/kz.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/la.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/lb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/lc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/li.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/lk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/lr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ls.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/lt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/lu.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/lv.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ly.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ma.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/md.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/me.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ml.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mu.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mv.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mx.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/my.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/mz.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/na.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ne.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ng.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ni.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/nl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/no.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/np.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/nr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/nz.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/om.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/pa.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/pe.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/pg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ph.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/pk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/pl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/pw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/py.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/qa.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ro.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/rs.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ru.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/rw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sa.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/se.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/si.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/so.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/st.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sv.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/sz.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/td.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/tg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/th.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/tj.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/tl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/tm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/tn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/to.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/tr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/tt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/tv.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/tw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/tz.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ua.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ug.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/us.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/uy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/uz.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/va.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/vc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ve.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/vn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/vu.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ws.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/ye.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/za.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/zm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/countries/zw.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/docs/dvi.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/docs/mid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/docs/mp3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/docs/perl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/docs/ppt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/docs/swf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/docs/wav.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/docs/xls.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/docs/xml.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/loaders/loader.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/logos/angular2.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/logos/angular4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/logos/angularjs.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/logos/primefaces.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/logos/primeng.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/logos/primereact.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/images/logos/primeui.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/json/browsers/browsers.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/json/cities/cities.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/json/countries/countries.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/json/documents/documents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/json/employees/employees.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/json/events/scheduleevents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/json/places/places.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/json/scores/scores.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/json/vcards/vcards.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/videos/ironman.mp4" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/armory/README.md" afterPath="$PROJECT_DIR$/armory/README.md" />
+      <change beforePath="$PROJECT_DIR$/armory/package.json" afterPath="$PROJECT_DIR$/armory/package.json" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/resources/config/liquibase/master.xml" afterPath="$PROJECT_DIR$/armory/src/main/resources/config/liquibase/master.xml" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/content/scss/global.scss" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/scss/global.scss" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/es/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/es/global.json" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/it/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/it/global.json" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/index.html" />
+      <change beforePath="$PROJECT_DIR$/armory/webpack/webpack.common.js" afterPath="$PROJECT_DIR$/armory/webpack/webpack.common.js" />
+      <change beforePath="$PROJECT_DIR$/armory/yarn.lock" afterPath="$PROJECT_DIR$/armory/yarn.lock" />
       <change beforePath="$PROJECT_DIR$/primeng/README.md" afterPath="$PROJECT_DIR$/primeng/README.md" />
+      <change beforePath="$PROJECT_DIR$/primeng/src/main/resources/config/application-dev.yml" afterPath="$PROJECT_DIR$/primeng/src/main/resources/config/application-dev.yml" />
+      <change beforePath="$PROJECT_DIR$/primeng/src/main/webapp/app/vendor.ts" afterPath="$PROJECT_DIR$/primeng/src/main/webapp/app/vendor.ts" />
+      <change beforePath="$PROJECT_DIR$/primeng/src/main/webapp/i18n/en/global.json" afterPath="$PROJECT_DIR$/primeng/src/main/webapp/i18n/en/global.json" />
+      <change beforePath="$PROJECT_DIR$/primeng/src/main/webapp/i18n/es/global.json" afterPath="$PROJECT_DIR$/primeng/src/main/webapp/i18n/es/global.json" />
+      <change beforePath="$PROJECT_DIR$/primeng/src/main/webapp/i18n/it/global.json" afterPath="$PROJECT_DIR$/primeng/src/main/webapp/i18n/it/global.json" />
+      <change beforePath="$PROJECT_DIR$/primeng/src/test/javascript/protractor.conf.js" afterPath="$PROJECT_DIR$/primeng/src/test/javascript/protractor.conf.js" />
+      <change beforePath="$PROJECT_DIR$/primeng/yarn.lock" afterPath="$PROJECT_DIR$/primeng/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,48 +268,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/primeng/README.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/armory/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="200">
-                <caret line="181" column="23" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="41" />
+              <first_editor relative-caret-position="169">
+                <caret line="170" column="43" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
                 <folding>
-                  <marker date="1517114926219" expanded="true" signature="2325:2515" ph="..." />
-                  <marker date="1517114926219" expanded="true" signature="2365:2506" ph="{...}" />
+                  <marker date="1517200640830" expanded="true" signature="1777:1967" ph="..." />
+                  <marker date="1517200640830" expanded="true" signature="1817:1958" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/barbican/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/armory/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -73,9 +297,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/content/scss/themes.scss" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/content/scss/global.scss" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/footer/footer.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/footer/footer.component.html" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/styles/theme.cosmic.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/styles/theme.default.ts" />
@@ -124,6 +345,9 @@
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/entities/basic-typography/basic-typography.module.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/entities/entity.module.ts" />
         <option value="$PROJECT_DIR$/armory/package.json" />
+        <option value="$PROJECT_DIR$/armory/webpack/webpack.common.js" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/armory/README.md" />
       </list>
     </option>
   </component>
@@ -149,7 +373,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="6" />
-    <option name="width" value="1156" />
+    <option name="width" value="1086" />
     <option name="height" value="722" />
   </component>
   <component name="ProjectView">
@@ -168,7 +392,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,19 +403,60 @@
             <path>
               <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
               <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
-              <item name="armory" type="462c0819:PsiDirectoryNode" />
+              <item name="primeng" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
               <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
-              <item name="barbican" type="462c0819:PsiDirectoryNode" />
+              <item name="primeng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="primeng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="primeng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="primeng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="primeng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="primeng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="primeng" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,11 +466,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Staff2\dev\blkshlds\armory\src\main\webapp\content" />
       <recent name="C:\Users\Staff2\dev\blkshlds\barbican\src\main\webapp\i18n\it" />
       <recent name="C:\Users\Staff2\dev\blkshlds\barbican\src\main\webapp\i18n\es" />
       <recent name="C:\Users\Staff2\dev\blkshlds\barbican\src\main\webapp\i18n\en" />
       <recent name="C:\Users\Staff2\dev\blkshlds\primeng\src\main\webapp\app" />
-      <recent name="C:\Users\Staff2\dev\blkshlds\barbican\src\main\webapp\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,14 +608,15 @@
       <workItem from="1516859507797" duration="25171000" />
       <workItem from="1517098788155" duration="16327000" />
       <workItem from="1517119957323" duration="13239000" />
+      <workItem from="1517192955000" duration="8034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267088000" />
+    <option name="totallyTimeSpent" value="275122000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="6" width="1156" height="722" extended-state="0" />
+    <frame x="4" y="6" width="1086" height="722" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -361,11 +627,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844827" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5144804" sideWeight="0.48965517" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5144804" sideWeight="0.48965517" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37956205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2631579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -497,128 +763,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/i18n/it/primeng.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/i18n/it/primeng.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/i18n/en/health.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/i18n/es/global.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/i18n/en/global.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="85" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/i18n/en/global.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/app/app.route.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/app/vendor.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/vendor.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/app/shared/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-227">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/shared/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/app/shared/auth/user-route-access-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-751">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/shared/auth/user-route-access-service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/buttons/button/buttondemo.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/buttons/button/buttondemo.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/app/primeng/buttons/button/buttondemo.route.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/app/primeng/primeng.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3106">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -676,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,9 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,9 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-732">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#65#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1055">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,9 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#65#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,9 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,9 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#75#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,10 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-            <element signature="e#852#1033#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -826,9 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#54#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,21 +962,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primeng/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="181" column="23" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="41" />
-            <folding>
-              <marker date="1517114926219" expanded="true" signature="2325:2515" ph="..." />
-              <marker date="1517114926219" expanded="true" signature="2365:2506" ph="{...}" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -867,17 +969,184 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/barbican/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
+        <state relative-caret-position="67">
+          <caret line="97" column="15" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="99" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/armory/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="96" column="39" lean-forward="false" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/.yo-rc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/primeng/proxy.conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/primeng/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-743">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/primeng/webpack/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/webpack/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="86" column="83" lean-forward="false" selection-start-line="86" selection-start-column="83" selection-end-line="86" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/content/primeng/assets/data/json/cities/cities.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/content/scss/global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3605">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/content/scss/vendor.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/content/scss/_bootstrap-variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/app/primeng/primeng.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#66#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-817">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+            <element signature="e#774#955#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/primeng/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="139">
+            <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+            <folding>
+              <marker date="1517196500988" expanded="true" signature="2325:2515" ph="..." />
+              <marker date="1517196500988" expanded="true" signature="2365:2506" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barbican/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2908">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1516687204263" expanded="true" signature="2326:2516" ph="..." />
+              <marker date="1516687204263" expanded="true" signature="2366:2507" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="169">
+            <caret line="170" column="43" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
+            <folding>
+              <marker date="1517200640830" expanded="true" signature="1777:1967" ph="..." />
+              <marker date="1517200640830" expanded="true" signature="1817:1958" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

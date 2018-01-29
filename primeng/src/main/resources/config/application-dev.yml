@@ -41,7 +41,7 @@ spring:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:mysql://localhost:3306/primeng?useUnicode=true&characterEncoding=utf8&useSSL=false
         username: root
-        password: Ravenna9
+        password:
         hikari:
             data-source-properties:
                 cachePrepStmts: true
