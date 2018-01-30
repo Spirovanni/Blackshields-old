@@ -4,7 +4,7 @@
         <button class="btn btn-primary float-right jh-create-entity create-basictypography" [routerLink]="['/', { outlets: { popup: ['basictypography-new'] } }]">
             <span class="fa fa-plus"></span>
             <span class="hidden-sm-down"  jhiTranslate="armoryApp.basictypography.home.createLabel">
-            Create new Basictypography
+            Create Note
             </span>
         </button>
     </h2>
@@ -86,5 +86,69 @@
         <div class="row justify-content-center">
             <ngb-pagination [collectionSize]="totalItems" [(page)]="page" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage(page)"></ngb-pagination>
         </div>
+    </div>
+    <div class="container">
+        <!--####################START HERE######################-->
+
+        <!-- HEADINGS -->
+        <h1>Heading One <small class="text-muted">Subtext</small></h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+
+        <!-- DISPLAY CLASSES -->
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
+
+        <!-- PARAGRAPHS -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero numquam voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis sapiente.</p>
+
+        <!-- LEAD -->
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero numquam voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis sapiente.</p>
+
+        <!-- STYLE CLASSES -->
+        <p class="font-weight-bold">Bold Text</p>
+        <p class="font-weight-normal">Normal Text</p>
+        <p class="font-italic">Italic Text</p>
+
+        <!-- TEXT TRANSFORMS -->
+        <p class="text-lowercase">MAKE LOWERCASE</p>
+        <p class="text-uppercase">make uppercase</p>
+        <p class="text-capitalize">make capitalized</p>
+
+        <!-- BLOCKQUOTES -->
+        <blockquote class="blockquote">
+            <p>This is a blockquote</p>
+        </blockquote>
+
+        <!-- BLOCKQUOTE RIGHT ALIGNED -->
+        <blockquote class="blockquote text-right">
+            <p>This is a blockquote aligned right</p>
+        </blockquote>
+
+        <!-- BLOCKQUOTE WITH FOOTER -->
+        <blockquote class="blockquote text-right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
+
+        <!-- LISTS -->
+        <ul class="list-unstyled">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+
+        <!-- INLINE LIST -->
+        <ul class="list-inline">
+            <li class="list-inline-item">Lorem ipsum</li>
+            <li class="list-inline-item">Lorem ipsum </li>
+            <li class="list-inline-item">Lorem ipsum </li>
+        </ul>
     </div>
 </div>
