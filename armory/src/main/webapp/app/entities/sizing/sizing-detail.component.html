@@ -1,0 +1,43 @@
+
+<div *ngIf="sizing">
+    <h2><span jhiTranslate="armoryApp.sizing.detail.title">Sizing</span> {{sizing.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="armoryApp.sizing.date">Date</span></dt>
+        <dd>
+            <span>{{sizing.date | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.sizing.status">Status</span></dt>
+        <dd>
+            <span jhiTranslate="{{'armoryApp.Status.' + sizing.status}}">{{sizing.status}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.sizing.description">Description</span></dt>
+        <dd>
+            <span>{{sizing.description}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.sizing.picture">Picture</span></dt>
+        <dd>
+            <div *ngIf="sizing.picture">
+                <a (click)="openFile(sizing.pictureContentType, sizing.picture)">
+                    <img [src]="'data:' + sizing.pictureContentType + ';base64,' + sizing.picture" style="max-width: 100%;" alt="sizing image"/>
+                </a>
+                {{sizing.pictureContentType}}, {{byteSize(sizing.picture)}}
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'sizing/'+ sizing.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

@@ -8,6 +8,9 @@
     <include file="config/liquibase/changelog/20180129044019_added_entity_Basictypography.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20180130031744_added_entity_Textalignmentdisplay.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20180130055617_added_entity_Floatsposition.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180130065021_added_entity_Colorsbackground.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180130074040_added_entity_Spacing.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180130083826_added_entity_Sizing.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>

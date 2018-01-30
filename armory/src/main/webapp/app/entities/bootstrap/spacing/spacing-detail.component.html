@@ -1,0 +1,43 @@
+
+<div *ngIf="spacing">
+    <h2><span jhiTranslate="armoryApp.spacing.detail.title">Spacing</span> {{spacing.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="armoryApp.spacing.date">Date</span></dt>
+        <dd>
+            <span>{{spacing.date | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.spacing.stage">Stage</span></dt>
+        <dd>
+            <span jhiTranslate="{{'armoryApp.Stage.' + spacing.stage}}">{{spacing.stage}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.spacing.description">Description</span></dt>
+        <dd>
+            <span>{{spacing.description}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.spacing.picture">Picture</span></dt>
+        <dd>
+            <div *ngIf="spacing.picture">
+                <a (click)="openFile(spacing.pictureContentType, spacing.picture)">
+                    <img [src]="'data:' + spacing.pictureContentType + ';base64,' + spacing.picture" style="max-width: 100%;" alt="spacing image"/>
+                </a>
+                {{spacing.pictureContentType}}, {{byteSize(spacing.picture)}}
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'spacing/'+ spacing.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "spacing" : {
+            "home": {
+                "title": "Spacings",
+                "createLabel": "Genera un nuovo Spacing",
+                "createOrEditLabel": "Genera o modifica un Spacing",
+                "search": "Cerca Spacing"
+            },
+            "created": "&Egrave; stato generato un nuovo Spacing con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Spacing identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Spacing con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Spacing {{ id }}?"
+            },
+            "detail": {
+                "title": "Spacing"
+            },
+            "date": "Date",
+            "stage": "Stage",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}

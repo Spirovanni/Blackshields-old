@@ -1,0 +1,43 @@
+
+<div *ngIf="colorsbackground">
+    <h2><span jhiTranslate="armoryApp.colorsbackground.detail.title">Colorsbackground</span> {{colorsbackground.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="armoryApp.colorsbackground.date">Date</span></dt>
+        <dd>
+            <span>{{colorsbackground.date | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.colorsbackground.stage">Stage</span></dt>
+        <dd>
+            <span jhiTranslate="{{'armoryApp.Stage.' + colorsbackground.stage}}">{{colorsbackground.stage}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.colorsbackground.description">Description</span></dt>
+        <dd>
+            <span>{{colorsbackground.description}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.colorsbackground.picture">Picture</span></dt>
+        <dd>
+            <div *ngIf="colorsbackground.picture">
+                <a (click)="openFile(colorsbackground.pictureContentType, colorsbackground.picture)">
+                    <img [src]="'data:' + colorsbackground.pictureContentType + ';base64,' + colorsbackground.picture" style="max-width: 100%;" alt="colorsbackground image"/>
+                </a>
+                {{colorsbackground.pictureContentType}}, {{byteSize(colorsbackground.picture)}}
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'colorsbackground/'+ colorsbackground.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

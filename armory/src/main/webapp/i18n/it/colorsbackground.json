@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "colorsbackground" : {
+            "home": {
+                "title": "Colorsbackgrounds",
+                "createLabel": "Genera un nuovo Colorsbackground",
+                "createOrEditLabel": "Genera o modifica un Colorsbackground",
+                "search": "Cerca Colorsbackground"
+            },
+            "created": "&Egrave; stato generato un nuovo Colorsbackground con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Colorsbackground identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Colorsbackground con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Colorsbackground {{ id }}?"
+            },
+            "detail": {
+                "title": "Colorsbackground"
+            },
+            "date": "Date",
+            "stage": "Stage",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}
