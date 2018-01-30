@@ -89,6 +89,7 @@
                 "main": "Bootstrap 4",
                 "basictypography": "1.1 Basic Typography",
                 "textalignmentdisplay": "1.2 Text Alignment Display",
+                "floatsposition": "1.3 Floats Position",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

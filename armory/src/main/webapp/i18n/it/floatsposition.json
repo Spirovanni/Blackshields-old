@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "floatsposition" : {
+            "home": {
+                "title": "Floatspositions",
+                "createLabel": "Genera un nuovo Floatsposition",
+                "createOrEditLabel": "Genera o modifica un Floatsposition",
+                "search": "Cerca Floatsposition"
+            },
+            "created": "&Egrave; stato generato un nuovo Floatsposition con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Floatsposition identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Floatsposition con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Floatsposition {{ id }}?"
+            },
+            "detail": {
+                "title": "Floatsposition"
+            },
+            "date": "Date",
+            "status": "Status",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}
