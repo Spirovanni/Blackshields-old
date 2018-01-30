@@ -1,6 +1,6 @@
 import { BaseEntity } from '../../../shared/index';
 
-export const enum Stage {
+export const enum Status {
     'ALPHA',
     ' BETA',
     ' SANDBOX',
@@ -8,11 +8,11 @@ export const enum Stage {
     ' PRODUCTION'
 }
 
-export class Basictypography implements BaseEntity {
+export class Textalignmentdisplay implements BaseEntity {
     constructor(
         public id?: number,
         public date?: any,
-        public stage?: Stage,
+        public status?: Status,
         public description?: string,
         public pictureContentType?: string,
         public picture?: any,

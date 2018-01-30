@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "textalignmentdisplay" : {
+            "home": {
+                "title": "Text Alignment Displays",
+                "createLabel": "Create a note",
+                "createOrEditLabel": "Create or edit a Text Alignment Display",
+                "search": "Search for Text Alignment Display"
+            },
+            "created": "A new Text Alignment Display note is created with identifier {{ param }}",
+            "updated": "A Text Alignment Display note is updated with identifier {{ param }}",
+            "deleted": "A Text Alignment Display note is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Text Alignment Display note {{ id }}?"
+            },
+            "detail": {
+                "title": "Text Alignment Display"
+            },
+            "date": "Date",
+            "status": "Status",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}

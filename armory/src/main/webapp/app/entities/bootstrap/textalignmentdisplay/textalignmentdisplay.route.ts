@@ -3,13 +3,13 @@ import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot, Routes } from '@a
 import { JhiPaginationUtil } from 'ng-jhipster';
 
 import { UserRouteAccessService } from '../../../shared/index';
-import { BasictypographyComponent } from './basictypography.component';
-import { BasictypographyDetailComponent } from './basictypography-detail.component';
-import { BasictypographyPopupComponent } from './basictypography-dialog.component';
-import { BasictypographyDeletePopupComponent } from './basictypography-delete-dialog.component';
+import { TextalignmentdisplayComponent } from './textalignmentdisplay.component';
+import { TextalignmentdisplayDetailComponent } from './textalignmentdisplay-detail.component';
+import { TextalignmentdisplayPopupComponent } from './textalignmentdisplay-dialog.component';
+import { TextalignmentdisplayDeletePopupComponent } from './textalignmentdisplay-delete-dialog.component';
 
 @Injectable()
-export class BasictypographyResolvePagingParams implements Resolve<any> {
+export class TextalignmentdisplayResolvePagingParams implements Resolve<any> {
 
     constructor(private paginationUtil: JhiPaginationUtil) {}
 
@@ -24,56 +24,56 @@ export class BasictypographyResolvePagingParams implements Resolve<any> {
     }
 }
 
-export const basictypographyRoute: Routes = [
+export const textalignmentdisplayRoute: Routes = [
     {
-        path: 'basictypography',
-        component: BasictypographyComponent,
+        path: 'textalignmentdisplay',
+        component: TextalignmentdisplayComponent,
         resolve: {
-            'pagingParams': BasictypographyResolvePagingParams
+            'pagingParams': TextalignmentdisplayResolvePagingParams
         },
         data: {
             authorities: ['ROLE_USER'],
-            pageTitle: 'armoryApp.basictypography.home.title'
+            pageTitle: 'armoryApp.textalignmentdisplay.home.title'
         },
         canActivate: [UserRouteAccessService]
     }, {
-        path: 'basictypography/:id',
-        component: BasictypographyDetailComponent,
+        path: 'textalignmentdisplay/:id',
+        component: TextalignmentdisplayDetailComponent,
         data: {
             authorities: ['ROLE_USER'],
-            pageTitle: 'armoryApp.basictypography.home.title'
+            pageTitle: 'armoryApp.textalignmentdisplay.home.title'
         },
         canActivate: [UserRouteAccessService]
     }
 ];
 
-export const basictypographyPopupRoute: Routes = [
+export const textalignmentdisplayPopupRoute: Routes = [
     {
-        path: 'basictypography-new',
-        component: BasictypographyPopupComponent,
+        path: 'textalignmentdisplay-new',
+        component: TextalignmentdisplayPopupComponent,
         data: {
             authorities: ['ROLE_USER'],
-            pageTitle: 'armoryApp.basictypography.home.title'
+            pageTitle: 'armoryApp.textalignmentdisplay.home.title'
         },
         canActivate: [UserRouteAccessService],
         outlet: 'popup'
     },
     {
-        path: 'basictypography/:id/edit',
-        component: BasictypographyPopupComponent,
+        path: 'textalignmentdisplay/:id/edit',
+        component: TextalignmentdisplayPopupComponent,
         data: {
             authorities: ['ROLE_USER'],
-            pageTitle: 'armoryApp.basictypography.home.title'
+            pageTitle: 'armoryApp.textalignmentdisplay.home.title'
         },
         canActivate: [UserRouteAccessService],
         outlet: 'popup'
     },
     {
-        path: 'basictypography/:id/delete',
-        component: BasictypographyDeletePopupComponent,
+        path: 'textalignmentdisplay/:id/delete',
+        component: TextalignmentdisplayDeletePopupComponent,
         data: {
             authorities: ['ROLE_USER'],
-            pageTitle: 'armoryApp.basictypography.home.title'
+            pageTitle: 'armoryApp.textalignmentdisplay.home.title'
         },
         canActivate: [UserRouteAccessService],
         outlet: 'popup'

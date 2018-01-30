@@ -5,34 +5,34 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { BasictypographyDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography-delete-dialog.component';
-import { BasictypographyService } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.service';
+import { TextalignmentdisplayDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay-delete-dialog.component';
+import { TextalignmentdisplayService } from '../../../../../../main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay.service';
 
 describe('Component Tests', () => {
 
-    describe('Basictypography Management Delete Component', () => {
-        let comp: BasictypographyDeleteDialogComponent;
-        let fixture: ComponentFixture<BasictypographyDeleteDialogComponent>;
-        let service: BasictypographyService;
+    describe('Textalignmentdisplay Management Delete Component', () => {
+        let comp: TextalignmentdisplayDeleteDialogComponent;
+        let fixture: ComponentFixture<TextalignmentdisplayDeleteDialogComponent>;
+        let service: TextalignmentdisplayService;
         let mockEventManager: any;
         let mockActiveModal: any;
 
         beforeEach(async(() => {
             TestBed.configureTestingModule({
                 imports: [ArmoryTestModule],
-                declarations: [BasictypographyDeleteDialogComponent],
+                declarations: [TextalignmentdisplayDeleteDialogComponent],
                 providers: [
-                    BasictypographyService
+                    TextalignmentdisplayService
                 ]
             })
-            .overrideTemplate(BasictypographyDeleteDialogComponent, '')
+            .overrideTemplate(TextalignmentdisplayDeleteDialogComponent, '')
             .compileComponents();
         }));
 
         beforeEach(() => {
-            fixture = TestBed.createComponent(BasictypographyDeleteDialogComponent);
+            fixture = TestBed.createComponent(TextalignmentdisplayDeleteDialogComponent);
             comp = fixture.componentInstance;
-            service = fixture.debugElement.injector.get(BasictypographyService);
+            service = fixture.debugElement.injector.get(TextalignmentdisplayService);
             mockEventManager = fixture.debugElement.injector.get(JhiEventManager);
             mockActiveModal = fixture.debugElement.injector.get(NgbActiveModal);
         });

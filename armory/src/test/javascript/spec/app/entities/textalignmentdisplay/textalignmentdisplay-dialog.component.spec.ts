@@ -5,35 +5,35 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { BasictypographyDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography-dialog.component';
-import { BasictypographyService } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.service';
-import { Basictypography } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.model';
+import { TextalignmentdisplayDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay-dialog.component';
+import { TextalignmentdisplayService } from '../../../../../../main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay.service';
+import { Textalignmentdisplay } from '../../../../../../main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay.model';
 
 describe('Component Tests', () => {
 
-    describe('Basictypography Management Dialog Component', () => {
-        let comp: BasictypographyDialogComponent;
-        let fixture: ComponentFixture<BasictypographyDialogComponent>;
-        let service: BasictypographyService;
+    describe('Textalignmentdisplay Management Dialog Component', () => {
+        let comp: TextalignmentdisplayDialogComponent;
+        let fixture: ComponentFixture<TextalignmentdisplayDialogComponent>;
+        let service: TextalignmentdisplayService;
         let mockEventManager: any;
         let mockActiveModal: any;
 
         beforeEach(async(() => {
             TestBed.configureTestingModule({
                 imports: [ArmoryTestModule],
-                declarations: [BasictypographyDialogComponent],
+                declarations: [TextalignmentdisplayDialogComponent],
                 providers: [
-                    BasictypographyService
+                    TextalignmentdisplayService
                 ]
             })
-            .overrideTemplate(BasictypographyDialogComponent, '')
+            .overrideTemplate(TextalignmentdisplayDialogComponent, '')
             .compileComponents();
         }));
 
         beforeEach(() => {
-            fixture = TestBed.createComponent(BasictypographyDialogComponent);
+            fixture = TestBed.createComponent(TextalignmentdisplayDialogComponent);
             comp = fixture.componentInstance;
-            service = fixture.debugElement.injector.get(BasictypographyService);
+            service = fixture.debugElement.injector.get(TextalignmentdisplayService);
             mockEventManager = fixture.debugElement.injector.get(JhiEventManager);
             mockActiveModal = fixture.debugElement.injector.get(NgbActiveModal);
         });
@@ -43,9 +43,9 @@ describe('Component Tests', () => {
                 inject([],
                     fakeAsync(() => {
                         // GIVEN
-                        const entity = new Basictypography(123);
+                        const entity = new Textalignmentdisplay(123);
                         spyOn(service, 'update').and.returnValue(Observable.of(entity));
-                        comp.basictypography = entity;
+                        comp.textalignmentdisplay = entity;
                         // WHEN
                         comp.save();
                         tick(); // simulate async
@@ -53,7 +53,7 @@ describe('Component Tests', () => {
                         // THEN
                         expect(service.update).toHaveBeenCalledWith(entity);
                         expect(comp.isSaving).toEqual(false);
-                        expect(mockEventManager.broadcastSpy).toHaveBeenCalledWith({ name: 'basictypographyListModification', content: 'OK'});
+                        expect(mockEventManager.broadcastSpy).toHaveBeenCalledWith({ name: 'textalignmentdisplayListModification', content: 'OK'});
                         expect(mockActiveModal.dismissSpy).toHaveBeenCalled();
                     })
                 )
@@ -63,9 +63,9 @@ describe('Component Tests', () => {
                 inject([],
                     fakeAsync(() => {
                         // GIVEN
-                        const entity = new Basictypography();
+                        const entity = new Textalignmentdisplay();
                         spyOn(service, 'create').and.returnValue(Observable.of(entity));
-                        comp.basictypography = entity;
+                        comp.textalignmentdisplay = entity;
                         // WHEN
                         comp.save();
                         tick(); // simulate async
@@ -73,7 +73,7 @@ describe('Component Tests', () => {
                         // THEN
                         expect(service.create).toHaveBeenCalledWith(entity);
                         expect(comp.isSaving).toEqual(false);
-                        expect(mockEventManager.broadcastSpy).toHaveBeenCalledWith({ name: 'basictypographyListModification', content: 'OK'});
+                        expect(mockEventManager.broadcastSpy).toHaveBeenCalledWith({ name: 'textalignmentdisplayListModification', content: 'OK'});
                         expect(mockActiveModal.dismissSpy).toHaveBeenCalled();
                     })
                 )

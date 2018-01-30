@@ -3,18 +3,18 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import { JhiEventManager, JhiParseLinks, JhiAlertService, JhiDataUtils } from 'ng-jhipster';
 
-import { Basictypography } from './basictypography.model';
-import { BasictypographyService } from './basictypography.service';
+import { Textalignmentdisplay } from './textalignmentdisplay.model';
+import { TextalignmentdisplayService } from './textalignmentdisplay.service';
 import { ITEMS_PER_PAGE, Principal, ResponseWrapper } from '../../../shared/index';
 
 @Component({
-    selector: 'jhi-basictypography',
-    templateUrl: './basictypography.component.html'
+    selector: 'jhi-textalignmentdisplay',
+    templateUrl: './textalignmentdisplay.component.html'
 })
-export class BasictypographyComponent implements OnInit, OnDestroy {
+export class TextalignmentdisplayComponent implements OnInit, OnDestroy {
 
 currentAccount: any;
-    basictypographies: Basictypography[];
+    textalignmentdisplays: Textalignmentdisplay[];
     error: any;
     success: any;
     eventSubscriber: Subscription;
@@ -30,7 +30,7 @@ currentAccount: any;
     reverse: any;
 
     constructor(
-        private basictypographyService: BasictypographyService,
+        private textalignmentdisplayService: TextalignmentdisplayService,
         private parseLinks: JhiParseLinks,
         private jhiAlertService: JhiAlertService,
         private principal: Principal,
@@ -52,7 +52,7 @@ currentAccount: any;
 
     loadAll() {
         if (this.currentSearch) {
-            this.basictypographyService.search({
+            this.textalignmentdisplayService.search({
                 page: this.page - 1,
                 query: this.currentSearch,
                 size: this.itemsPerPage,
@@ -62,7 +62,7 @@ currentAccount: any;
                 );
             return;
         }
-        this.basictypographyService.query({
+        this.textalignmentdisplayService.query({
             page: this.page - 1,
             size: this.itemsPerPage,
             sort: this.sort()}).subscribe(
@@ -77,7 +77,7 @@ currentAccount: any;
         }
     }
     transition() {
-        this.router.navigate(['/basictypography'], {queryParams:
+        this.router.navigate(['/textalignmentdisplay'], {queryParams:
             {
                 page: this.page,
                 size: this.itemsPerPage,
@@ -91,7 +91,7 @@ currentAccount: any;
     clear() {
         this.page = 0;
         this.currentSearch = '';
-        this.router.navigate(['/basictypography', {
+        this.router.navigate(['/textalignmentdisplay', {
             page: this.page,
             sort: this.predicate + ',' + (this.reverse ? 'asc' : 'desc')
         }]);
@@ -103,7 +103,7 @@ currentAccount: any;
         }
         this.page = 0;
         this.currentSearch = query;
-        this.router.navigate(['/basictypography', {
+        this.router.navigate(['/textalignmentdisplay', {
             search: this.currentSearch,
             page: this.page,
             sort: this.predicate + ',' + (this.reverse ? 'asc' : 'desc')
@@ -115,14 +115,14 @@ currentAccount: any;
         this.principal.identity().then((account) => {
             this.currentAccount = account;
         });
-        this.registerChangeInBasictypographies();
+        this.registerChangeInTextalignmentdisplays();
     }
 
     ngOnDestroy() {
         this.eventManager.destroy(this.eventSubscriber);
     }
 
-    trackId(index: number, item: Basictypography) {
+    trackId(index: number, item: Textalignmentdisplay) {
         return item.id;
     }
 
@@ -133,8 +133,8 @@ currentAccount: any;
     openFile(contentType, field) {
         return this.dataUtils.openFile(contentType, field);
     }
-    registerChangeInBasictypographies() {
-        this.eventSubscriber = this.eventManager.subscribe('basictypographyListModification', (response) => this.loadAll());
+    registerChangeInTextalignmentdisplays() {
+        this.eventSubscriber = this.eventManager.subscribe('textalignmentdisplayListModification', (response) => this.loadAll());
     }
 
     sort() {
@@ -150,7 +150,7 @@ currentAccount: any;
         this.totalItems = headers.get('X-Total-Count');
         this.queryCount = this.totalItems;
         // this.page = pagingParams.page;
-        this.basictypographies = data;
+        this.textalignmentdisplays = data;
     }
     private onError(error) {
         this.jhiAlertService.error(error.message, null, null);

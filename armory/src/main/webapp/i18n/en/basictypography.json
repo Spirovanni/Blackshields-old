@@ -2,19 +2,19 @@
     "armoryApp": {
         "basictypography" : {
             "home": {
-                "title": "Basictypographies",
-                "createLabel": "Create a new Basictypography",
-                "createOrEditLabel": "Create or edit a Basictypography",
-                "search": "Search for Basictypography"
+                "title": "Basic Typographies",
+                "createLabel": "Create Note",
+                "createOrEditLabel": "Create or edit a Basic Typography",
+                "search": "Search for Basic Typography"
             },
-            "created": "A new Basictypography is created with identifier {{ param }}",
-            "updated": "A Basictypography is updated with identifier {{ param }}",
-            "deleted": "A Basictypography is deleted with identifier {{ param }}",
+            "created": "A new Basic Typography note is created with identifier {{ param }}",
+            "updated": "A Basic Typography note is updated with identifier {{ param }}",
+            "deleted": "A Basic Typography note is deleted with identifier {{ param }}",
             "delete": {
-                "question": "Are you sure you want to delete Basictypography {{ id }}?"
+                "question": "Are you sure you want to delete Basic Typography note {{ id }}?"
             },
             "detail": {
-                "title": "Basictypography"
+                "title": "Basic Typography"
             },
             "date": "Date",
             "stage": "Stage",

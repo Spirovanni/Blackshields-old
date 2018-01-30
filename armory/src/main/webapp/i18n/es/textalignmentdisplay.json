@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "textalignmentdisplay" : {
+            "home": {
+                "title": "Textalignmentdisplays",
+                "createLabel": "Crear nuevo Textalignmentdisplay",
+                "createOrEditLabel": "Crear o editar Textalignmentdisplay",
+                "search": "Search for Textalignmentdisplay"
+            },
+            "created": "Un nuevo Textalignmentdisplay ha sido creado con el identificador {{ param }}",
+            "updated": "Un Textalignmentdisplay ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Textalignmentdisplay ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Textalignmentdisplay {{ id }}?"
+            },
+            "detail": {
+                "title": "Textalignmentdisplay"
+            },
+            "date": "Date",
+            "status": "Status",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}

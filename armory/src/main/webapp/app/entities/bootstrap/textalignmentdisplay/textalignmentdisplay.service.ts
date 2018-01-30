@@ -5,34 +5,34 @@ import { SERVER_API_URL } from '../../../app.constants';
 
 import { JhiDateUtils } from 'ng-jhipster';
 
-import { Basictypography } from './basictypography.model';
+import { Textalignmentdisplay } from './textalignmentdisplay.model';
 import { ResponseWrapper, createRequestOption } from '../../../shared/index';
 
 @Injectable()
-export class BasictypographyService {
+export class TextalignmentdisplayService {
 
-    private resourceUrl =  SERVER_API_URL + 'api/basictypographies';
-    private resourceSearchUrl = SERVER_API_URL + 'api/_search/basictypographies';
+    private resourceUrl =  SERVER_API_URL + 'api/textalignmentdisplays';
+    private resourceSearchUrl = SERVER_API_URL + 'api/_search/textalignmentdisplays';
 
     constructor(private http: Http, private dateUtils: JhiDateUtils) { }
 
-    create(basictypography: Basictypography): Observable<Basictypography> {
-        const copy = this.convert(basictypography);
+    create(textalignmentdisplay: Textalignmentdisplay): Observable<Textalignmentdisplay> {
+        const copy = this.convert(textalignmentdisplay);
         return this.http.post(this.resourceUrl, copy).map((res: Response) => {
             const jsonResponse = res.json();
             return this.convertItemFromServer(jsonResponse);
         });
     }
 
-    update(basictypography: Basictypography): Observable<Basictypography> {
-        const copy = this.convert(basictypography);
+    update(textalignmentdisplay: Textalignmentdisplay): Observable<Textalignmentdisplay> {
+        const copy = this.convert(textalignmentdisplay);
         return this.http.put(this.resourceUrl, copy).map((res: Response) => {
             const jsonResponse = res.json();
             return this.convertItemFromServer(jsonResponse);
         });
     }
 
-    find(id: number): Observable<Basictypography> {
+    find(id: number): Observable<Textalignmentdisplay> {
         return this.http.get(`${this.resourceUrl}/${id}`).map((res: Response) => {
             const jsonResponse = res.json();
             return this.convertItemFromServer(jsonResponse);
@@ -65,22 +65,22 @@ export class BasictypographyService {
     }
 
     /**
-     * Convert a returned JSON object to Basictypography.
+     * Convert a returned JSON object to Textalignmentdisplay.
      */
-    private convertItemFromServer(json: any): Basictypography {
-        const entity: Basictypography = Object.assign(new Basictypography(), json);
+    private convertItemFromServer(json: any): Textalignmentdisplay {
+        const entity: Textalignmentdisplay = Object.assign(new Textalignmentdisplay(), json);
         entity.date = this.dateUtils
             .convertLocalDateFromServer(json.date);
         return entity;
     }
 
     /**
-     * Convert a Basictypography to a JSON which can be sent to the server.
+     * Convert a Textalignmentdisplay to a JSON which can be sent to the server.
      */
-    private convert(basictypography: Basictypography): Basictypography {
-        const copy: Basictypography = Object.assign({}, basictypography);
+    private convert(textalignmentdisplay: Textalignmentdisplay): Textalignmentdisplay {
+        const copy: Textalignmentdisplay = Object.assign({}, textalignmentdisplay);
         copy.date = this.dateUtils
-            .convertLocalDateToServer(basictypography.date);
+            .convertLocalDateToServer(textalignmentdisplay.date);
         return copy;
     }
 }

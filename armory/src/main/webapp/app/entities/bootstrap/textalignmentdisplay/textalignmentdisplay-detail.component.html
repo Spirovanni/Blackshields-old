@@ -1,0 +1,43 @@
+
+<div *ngIf="textalignmentdisplay">
+    <h2><span jhiTranslate="armoryApp.textalignmentdisplay.detail.title">Textalignmentdisplay</span> {{textalignmentdisplay.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="armoryApp.textalignmentdisplay.date">Date</span></dt>
+        <dd>
+            <span>{{textalignmentdisplay.date | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.textalignmentdisplay.status">Status</span></dt>
+        <dd>
+            <span jhiTranslate="{{'armoryApp.Status.' + textalignmentdisplay.status}}">{{textalignmentdisplay.status}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.textalignmentdisplay.description">Description</span></dt>
+        <dd>
+            <span>{{textalignmentdisplay.description}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.textalignmentdisplay.picture">Picture</span></dt>
+        <dd>
+            <div *ngIf="textalignmentdisplay.picture">
+                <a (click)="openFile(textalignmentdisplay.pictureContentType, textalignmentdisplay.picture)">
+                    <img [src]="'data:' + textalignmentdisplay.pictureContentType + ';base64,' + textalignmentdisplay.picture" style="max-width: 100%;" alt="textalignmentdisplay image"/>
+                </a>
+                {{textalignmentdisplay.pictureContentType}}, {{byteSize(textalignmentdisplay.picture)}}
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'textalignmentdisplay/'+ textalignmentdisplay.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>
