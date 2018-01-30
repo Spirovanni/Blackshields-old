@@ -2,41 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b8fc28-4e78-4940-ada5-1181fb4eace6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Staff2.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Staff2.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/resources/config/liquibase/master.xml" afterPath="$PROJECT_DIR$/armory/src/main/resources/config/liquibase/master.xml" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography-delete-dialog.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography-delete-dialog.component.html" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography-delete-dialog.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography-delete-dialog.component.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography-detail.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography-detail.component.html" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography-detail.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography-detail.component.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography-dialog.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography-dialog.component.html" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography-dialog.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography-dialog.component.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography-popup.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography-popup.service.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.component.html" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.component.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography.model.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.model.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.module.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography.route.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.route.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/basictypography.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.service.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/basictypography/index.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/index.ts" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/vendor.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/vendor.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/content/scss/global.scss" afterPath="$PROJECT_DIR$/armory/src/main/webapp/content/scss/global.scss" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/basictypography.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/basictypography.json" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/es/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/es/global.json" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/it/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/it/global.json" />
-      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography-delete-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography-delete-dialog.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography-detail.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography-detail.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography-dialog.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography.component.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography.service.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography.service.spec.ts" />
-      <change beforePath="$PROJECT_DIR$/primeng/src/main/webapp/app/vendor.ts" afterPath="$PROJECT_DIR$/primeng/src/main/webapp/app/vendor.ts" />
-      <change beforePath="$PROJECT_DIR$/primeng/src/main/webapp/i18n/en/global.json" afterPath="$PROJECT_DIR$/primeng/src/main/webapp/i18n/en/global.json" />
-      <change beforePath="$PROJECT_DIR$/primeng/src/main/webapp/i18n/es/global.json" afterPath="$PROJECT_DIR$/primeng/src/main/webapp/i18n/es/global.json" />
-      <change beforePath="$PROJECT_DIR$/primeng/src/main/webapp/i18n/it/global.json" afterPath="$PROJECT_DIR$/primeng/src/main/webapp/i18n/it/global.json" />
-      <change beforePath="$PROJECT_DIR$/primeng/src/test/javascript/protractor.conf.js" afterPath="$PROJECT_DIR$/primeng/src/test/javascript/protractor.conf.js" />
-      <change beforePath="$PROJECT_DIR$/primeng/yarn.lock" afterPath="$PROJECT_DIR$/primeng/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,14 +46,34 @@
         <entry file="file://$PROJECT_DIR$/armory/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="913">
-                <caret line="170" column="27" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
+              <first_editor relative-caret-position="175">
+                <caret line="170" column="40" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
                 <folding>
                   <marker date="1517200640830" expanded="true" signature="1777:1967" ph="..." />
                   <marker date="1517200640830" expanded="true" signature="1817:1958" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="floatsposition.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/floatsposition.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="90" column="69" lean-forward="false" selection-start-line="90" selection-start-column="69" selection-end-line="90" selection-end-column="69" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basictypography.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="basictypography.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
@@ -124,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/components/header/header.component.scss" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/components/footer/footer.component.scss" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/components/theme-settings/theme-settings.component.scss" />
@@ -171,10 +163,11 @@
         <option value="$PROJECT_DIR$/armory/src/main/webapp/app/vendor.ts" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/basictypography.json" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/textalignmentdisplay.json" />
-        <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay.component.html" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.component.html" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/floatsposition.json" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" />
       </list>
     </option>
   </component>
@@ -200,7 +193,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="6" />
-    <option name="width" value="1190" />
+    <option name="width" value="1095" />
     <option name="height" value="722" />
   </component>
   <component name="ProjectView">
@@ -271,6 +264,17 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="armory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
@@ -547,16 +551,15 @@
       <workItem from="1516859507797" duration="25171000" />
       <workItem from="1517098788155" duration="16327000" />
       <workItem from="1517119957323" duration="13239000" />
-      <workItem from="1517192955000" duration="25164000" />
+      <workItem from="1517192955000" duration="26879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292252000" />
+    <option name="totallyTimeSpent" value="293967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="6" width="1190" height="722" extended-state="0" />
-    <editor active="true" />
+    <frame x="4" y="6" width="1095" height="722" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -567,11 +570,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844827" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38841566" sideWeight="0.48965517" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42078364" sideWeight="0.48965517" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13362832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14589372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2492891" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -703,13 +706,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/app/layouts/navbar/navbar.route.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/entities/basic-typography/basic-typography.module.ts" />
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/entities/basic-typography/basic-typography.route.ts" />
     <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/entities/basic-typography/index.ts" />
@@ -1076,28 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/armory/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="913">
-            <caret line="170" column="27" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
-            <folding>
-              <marker date="1517200640830" expanded="true" signature="1777:1967" ph="..." />
-              <marker date="1517200640830" expanded="true" signature="1817:1958" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1117,6 +1091,36 @@
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="175">
+            <caret line="170" column="40" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
+            <folding>
+              <marker date="1517200640830" expanded="true" signature="1777:1967" ph="..." />
+              <marker date="1517200640830" expanded="true" signature="1817:1958" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/floatsposition.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="90" column="69" lean-forward="false" selection-start-line="90" selection-start-column="69" selection-end-line="90" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>

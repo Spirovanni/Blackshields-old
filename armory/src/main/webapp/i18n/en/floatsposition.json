@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "floatsposition" : {
+            "home": {
+                "title": "Floats Positions",
+                "createLabel": "Create note",
+                "createOrEditLabel": "Create or edit a Floats Position note",
+                "search": "Search for Floats Position note"
+            },
+            "created": "A new Floats Position note is created with identifier {{ param }}",
+            "updated": "A Floats Position note is updated with identifier {{ param }}",
+            "deleted": "A Floats Position note is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Floats Position note {{ id }}?"
+            },
+            "detail": {
+                "title": "Floats Position"
+            },
+            "date": "Date",
+            "status": "Status",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}
