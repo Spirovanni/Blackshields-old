@@ -8,6 +8,7 @@
             "entities": {
                 "main": "Entidades",
                 "basictypography": "Basictypography",
+                "textalignmentdisplay": "Textalignmentdisplay",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

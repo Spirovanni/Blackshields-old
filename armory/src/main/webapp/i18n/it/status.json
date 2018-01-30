@@ -1,0 +1,12 @@
+{
+    "armoryApp": {
+        "Status" : {
+            "null": "",
+            "ALPHA": "ALPHA",
+            "BETA": "BETA",
+            "SANDBOX": "SANDBOX",
+            "DEVELOPMENT": "DEVELOPMENT",
+            "PRODUCTION": "PRODUCTION"
+        }
+    }
+}

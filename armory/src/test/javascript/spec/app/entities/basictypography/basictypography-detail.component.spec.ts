@@ -3,9 +3,9 @@ import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 import { Observable } from 'rxjs/Observable';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { BasictypographyDetailComponent } from '../../../../../../main/webapp/app/entities/basictypography/basictypography-detail.component';
-import { BasictypographyService } from '../../../../../../main/webapp/app/entities/basictypography/basictypography.service';
-import { Basictypography } from '../../../../../../main/webapp/app/entities/basictypography/basictypography.model';
+import { BasictypographyDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography-detail.component';
+import { BasictypographyService } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.service';
+import { Basictypography } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.model';
 
 describe('Component Tests', () => {
 

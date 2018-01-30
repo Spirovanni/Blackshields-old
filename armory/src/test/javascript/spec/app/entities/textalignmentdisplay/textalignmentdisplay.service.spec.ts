@@ -4,14 +4,14 @@ import { MockBackend } from '@angular/http/testing';
 import { ConnectionBackend, RequestOptions, BaseRequestOptions, Http, Response, ResponseOptions } from '@angular/http';
 import { JhiDateUtils } from 'ng-jhipster';
 
-import { BasictypographyService } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.service';
-import { Basictypography } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.model';
+import { TextalignmentdisplayService } from '../../../../../../main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay.service';
+import { Textalignmentdisplay } from '../../../../../../main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay.model';
 import { SERVER_API_URL } from '../../../../../../main/webapp/app/app.constants';
 
 describe('Service Tests', () => {
 
-    describe('Basictypography Service', () => {
-        let service: BasictypographyService;
+    describe('Textalignmentdisplay Service', () => {
+        let service: TextalignmentdisplayService;
 
         beforeEach(async(() => {
             TestBed.configureTestingModule({
@@ -26,11 +26,11 @@ describe('Service Tests', () => {
                     },
                     Http,
                     JhiDateUtils,
-                    BasictypographyService
+                    TextalignmentdisplayService
                 ]
             });
 
-            service = TestBed.get(BasictypographyService);
+            service = TestBed.get(TextalignmentdisplayService);
 
             this.backend = TestBed.get(ConnectionBackend) as MockBackend;
             this.backend.connections.subscribe((connection: any) => {
@@ -44,13 +44,13 @@ describe('Service Tests', () => {
 
                 expect(this.lastConnection).toBeDefined();
 
-                const resourceUrl = SERVER_API_URL + 'api/basictypographies';
+                const resourceUrl = SERVER_API_URL + 'api/textalignmentdisplays';
                 expect(this.lastConnection.request.url).toEqual(resourceUrl + '/' + 123);
             });
-            it('should return Basictypography', () => {
+            it('should return Textalignmentdisplay', () => {
 
-                let entity: Basictypography;
-                service.find(123).subscribe((_entity: Basictypography) => {
+                let entity: Textalignmentdisplay;
+                service.find(123).subscribe((_entity: Textalignmentdisplay) => {
                     entity = _entity;
                 });
 
