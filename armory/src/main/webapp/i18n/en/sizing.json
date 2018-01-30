@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "sizing" : {
+            "home": {
+                "title": "Sizings",
+                "createLabel": "Create a new Sizing",
+                "createOrEditLabel": "Create or edit a Sizing",
+                "search": "Search for Sizing"
+            },
+            "created": "A new Sizing is created with identifier {{ param }}",
+            "updated": "A Sizing is updated with identifier {{ param }}",
+            "deleted": "A Sizing is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Sizing {{ id }}?"
+            },
+            "detail": {
+                "title": "Sizing"
+            },
+            "date": "Date",
+            "status": "Status",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}

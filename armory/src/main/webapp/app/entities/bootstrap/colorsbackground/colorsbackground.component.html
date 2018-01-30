@@ -1,0 +1,120 @@
+<div>
+    <h2>
+        <span jhiTranslate="armoryApp.colorsbackground.home.title">Colorsbackgrounds</span>
+        <button class="btn btn-primary float-right jh-create-entity create-colorsbackground" [routerLink]="['/', { outlets: { popup: ['colorsbackground-new'] } }]">
+            <span class="fa fa-plus"></span>
+            <span class="hidden-sm-down"  jhiTranslate="armoryApp.colorsbackground.home.createLabel">
+            Create new Colorsbackground
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <div class="row">
+        <div class="col-sm-12">
+            <form name="searchForm" class="form-inline">
+                <div class="input-group w-100 mt-3">
+                    <input type="text" class="form-control" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'armoryApp.colorsbackground.home.search' | translate }}">
+                    <button class="input-group-addon btn btn-info" (click)="search(currentSearch)">
+                        <span class="fa fa-search"></span>
+                    </button>
+                    <button class="input-group-addon btn btn-danger" (click)="clear()" *ngIf="currentSearch">
+                        <span class="fa fa-trash-o"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive" *ngIf="colorsbackgrounds">
+        <table class="table table-striped">
+            <thead>
+            <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="transition.bind(this)">
+            <th jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="date"><span jhiTranslate="armoryApp.colorsbackground.date">Date</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="stage"><span jhiTranslate="armoryApp.colorsbackground.stage">Stage</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="description"><span jhiTranslate="armoryApp.colorsbackground.description">Description</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="picture"><span jhiTranslate="armoryApp.colorsbackground.picture">Picture</span> <span class="fa fa-sort"></span></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let colorsbackground of colorsbackgrounds ;trackBy: trackId">
+                <td><a [routerLink]="['../colorsbackground', colorsbackground.id ]">{{colorsbackground.id}}</a></td>
+                <td>{{colorsbackground.date | date:'mediumDate'}}</td>
+                <td jhiTranslate="{{'armoryApp.Stage.' + colorsbackground.stage}}">{{colorsbackground.stage}}</td>
+                <td>{{colorsbackground.description}}</td>
+                <td>
+                    <a *ngIf="colorsbackground.picture" (click)="openFile(colorsbackground.pictureContentType, colorsbackground.picture)">
+                        <img [src]="'data:' + colorsbackground.pictureContentType + ';base64,' + colorsbackground.picture" style="max-height: 30px;" alt="colorsbackground image"/>
+                    </a>
+                    <span *ngIf="colorsbackground.picture">{{colorsbackground.pictureContentType}}, {{byteSize(colorsbackground.picture)}}</span>
+                </td>
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['../colorsbackground', colorsbackground.id ]"
+                                class="btn btn-info btn-sm">
+                            <span class="fa fa-eye"></span>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'colorsbackground/'+ colorsbackground.id + '/edit'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-primary btn-sm">
+                            <span class="fa fa-pencil"></span>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'colorsbackground/'+ colorsbackground.id + '/delete'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-danger btn-sm">
+                            <span class="fa fa-remove"></span>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div *ngIf="colorsbackgrounds && colorsbackgrounds.length">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="queryCount" [maxSize]="5" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="page" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage(page)"></ngb-pagination>
+        </div>
+    </div>
+</div>
+<div class="container" style="margin-top:100px;">
+    <!--###################START HERE####################-->
+
+    <!-- TEXT COLORS -->
+    <p class="text-primary">Text Primary Color</p>
+    <p class="text-secondary">Text Secondary Color</p>
+    <p class="text-success">Text Success Color</p>
+    <p class="text-info">Text Info Color</p>
+    <p class="text-warning">Text Warning Color</p>
+    <p class="text-danger">Text Danger Color</p>
+    <p class="text-light">Text Light Color</p>
+    <p class="text-dark">Text Dark Color</p>
+    <p class="text-white">Text White Color</p>
+
+    <!-- BACKGROUND COLORS -->
+    <div class="bg-primary text-white">Background Primary Color</div>
+    <div class="bg-secondary">Background Secondary Color</div>
+    <div class="bg-success text-white">Background Success Color</div>
+    <div class="bg-info text-white">Background Info Color</div>
+    <div class="bg-warning">Background Warning Color</div>
+    <div class="bg-danger text-white">Background Danger Color</div>
+    <div class="bg-light">Background Light Color</div>
+    <div class="bg-dark text-light">Background Dark Color</div>
+    <div class="bg-white">Background White Color</div>
+
+    <!-- INVISIBLE -->
+    <p class="invisible">Hello</p>
+
+</div><!-- ./container -->
+<div style="margin-top:100px;"></div>

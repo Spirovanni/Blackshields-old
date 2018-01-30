@@ -90,6 +90,9 @@
                 "basictypography": "1.1 Basic Typography",
                 "textalignmentdisplay": "1.2 Text Alignment Display",
                 "floatsposition": "1.3 Floats Position",
+                "colorsbackground": "1.4 Colors Background",
+                "spacing": "1.5 Spacing",
+                "sizing": "1.6 Sizing",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

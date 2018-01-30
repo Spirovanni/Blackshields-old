@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b8fc28-4e78-4940-ada5-1181fb4eace6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/floatsposition/floatsposition.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/floatsposition/floatsposition.component.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Staff2.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Staff2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/resources/config/liquibase/master.xml" afterPath="$PROJECT_DIR$/armory/src/main/resources/config/liquibase/master.xml" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/es/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/es/global.json" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/it/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/it/global.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +47,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="175">
-                <caret line="170" column="40" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
+                <caret line="170" column="29" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
                 <folding>
                   <marker date="1517200640830" expanded="true" signature="1777:1967" ph="..." />
                   <marker date="1517200640830" expanded="true" signature="1817:1958" ph="{...}" />
@@ -51,35 +58,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="global.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="90" column="69" lean-forward="false" selection-start-line="90" selection-start-column="69" selection-end-line="90" selection-end-column="69" />
+            <state relative-caret-position="180">
+              <caret line="92" column="60" lean-forward="false" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="floatsposition.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/floatsposition/floatsposition.component.html">
+      <file leaf-file-name="spacing.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/spacing/spacing.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="90" column="48" lean-forward="false" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basictypography.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="153" column="6" lean-forward="false" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
+            <state relative-caret-position="137">
+              <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="498" column="30" lean-forward="false" selection-start-line="498" selection-start-column="30" selection-end-line="498" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,10 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/components/footer/footer.component.scss" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/components/theme-settings/theme-settings.component.scss" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/components/theme-switcher/theme-switcher.component.scss" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/components/tiny-mce/tiny-mce.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/components/index.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/layouts/one-column/one-column.layout.scss" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/layouts/sample/sample.layout.scss" />
@@ -142,12 +145,16 @@
         <option value="$PROJECT_DIR$/armory/src/main/webapp/app/vendor.ts" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/basictypography.json" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/textalignmentdisplay.json" />
-        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay.component.html" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.component.html" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/floatsposition.json" />
-        <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/floatsposition/floatsposition.component.html" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/colorsbackground.json" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.component.html" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/spacing.json" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/spacing/spacing.component.html" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" />
       </list>
     </option>
   </component>
@@ -171,9 +178,9 @@
     <handled-path value="$PROJECT_DIR$/registry/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="6" />
-    <option name="width" value="1095" />
+    <option name="x" value="-2" />
+    <option name="y" value="4" />
+    <option name="width" value="1111" />
     <option name="height" value="722" />
   </component>
   <component name="ProjectView">
@@ -266,7 +273,7 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
               <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="floatsposition" type="462c0819:PsiDirectoryNode" />
+              <item name="spacing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
@@ -543,15 +550,15 @@
       <workItem from="1516859507797" duration="25171000" />
       <workItem from="1517098788155" duration="16327000" />
       <workItem from="1517119957323" duration="13239000" />
-      <workItem from="1517192955000" duration="27510000" />
+      <workItem from="1517192955000" duration="33647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294598000" />
+    <option name="totallyTimeSpent" value="300735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="6" width="1095" height="722" extended-state="0" />
+    <frame x="-2" y="4" width="1111" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -567,7 +574,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14589372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14367269" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2492891" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -699,22 +706,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/entities/basic-typography/basic-typography.route.ts" />
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/entities/basic-typography/index.ts" />
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/polyfills.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/app/entities/entity.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/primeng/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1053,21 +1044,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="457" column="17" lean-forward="false" selection-start-line="457" selection-start-column="17" selection-end-line="457" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="153" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/floatsposition.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/floatsposition/floatsposition.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="90" column="48" lean-forward="false" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
@@ -1080,6 +1079,52 @@
         <state relative-caret-position="156">
           <caret line="153" column="6" lean-forward="false" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/spacing.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="74" lean-forward="false" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/colorsbackground.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="498" column="30" lean-forward="false" selection-start-line="498" selection-start-column="30" selection-end-line="498" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/spacing/spacing.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+          <folding>
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
           </folding>
@@ -1090,7 +1135,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="175">
-            <caret line="170" column="40" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
+            <caret line="170" column="29" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
             <folding>
               <marker date="1517200640830" expanded="true" signature="1777:1967" ph="..." />
               <marker date="1517200640830" expanded="true" signature="1817:1958" ph="{...}" />
@@ -1100,26 +1145,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/floatsposition.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="90" column="69" lean-forward="false" selection-start-line="90" selection-start-column="69" selection-end-line="90" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/floatsposition/floatsposition.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="90" column="48" lean-forward="false" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
+        <state relative-caret-position="180">
+          <caret line="92" column="60" lean-forward="false" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
           <folding />
         </state>
       </provider>

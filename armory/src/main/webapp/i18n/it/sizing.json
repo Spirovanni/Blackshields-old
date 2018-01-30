@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "sizing" : {
+            "home": {
+                "title": "Sizings",
+                "createLabel": "Genera un nuovo Sizing",
+                "createOrEditLabel": "Genera o modifica un Sizing",
+                "search": "Cerca Sizing"
+            },
+            "created": "&Egrave; stato generato un nuovo Sizing con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Sizing identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Sizing con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Sizing {{ id }}?"
+            },
+            "detail": {
+                "title": "Sizing"
+            },
+            "date": "Date",
+            "status": "Status",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}
