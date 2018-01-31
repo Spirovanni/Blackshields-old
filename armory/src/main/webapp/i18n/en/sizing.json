@@ -3,15 +3,15 @@
         "sizing" : {
             "home": {
                 "title": "Sizings",
-                "createLabel": "Create a new Sizing",
-                "createOrEditLabel": "Create or edit a Sizing",
-                "search": "Search for Sizing"
+                "createLabel": "Create a note",
+                "createOrEditLabel": "Create or edit a Sizing note",
+                "search": "Search for Sizing note"
             },
-            "created": "A new Sizing is created with identifier {{ param }}",
-            "updated": "A Sizing is updated with identifier {{ param }}",
-            "deleted": "A Sizing is deleted with identifier {{ param }}",
+            "created": "A new Sizing note is created with identifier {{ param }}",
+            "updated": "A Sizing note is updated with identifier {{ param }}",
+            "deleted": "A Sizing note is deleted with identifier {{ param }}",
             "delete": {
-                "question": "Are you sure you want to delete Sizing {{ id }}?"
+                "question": "Are you sure you want to delete Sizing note {{ id }}?"
             },
             "detail": {
                 "title": "Sizing"

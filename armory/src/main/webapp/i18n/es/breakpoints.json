@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "breakpoints" : {
+            "home": {
+                "title": "Breakpoints",
+                "createLabel": "Crear nuevo Breakpoints",
+                "createOrEditLabel": "Crear o editar Breakpoints",
+                "search": "Search for Breakpoints"
+            },
+            "created": "Un nuevo Breakpoints ha sido creado con el identificador {{ param }}",
+            "updated": "Un Breakpoints ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Breakpoints ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Breakpoints {{ id }}?"
+            },
+            "detail": {
+                "title": "Breakpoints"
+            },
+            "date": "Date",
+            "stage": "Stage",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}

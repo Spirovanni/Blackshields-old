@@ -4,33 +4,33 @@ import { Observable } from 'rxjs/Observable';
 import { Headers } from '@angular/http';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { SizingComponent } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.component';
-import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.service';
-import { Sizing } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.model';
+import { ButtonsComponent } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.component';
+import { ButtonsService } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.service';
+import { Buttons } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.model';
 
 describe('Component Tests', () => {
 
-    describe('Sizing Management Component', () => {
-        let comp: SizingComponent;
-        let fixture: ComponentFixture<SizingComponent>;
-        let service: SizingService;
+    describe('Buttons Management Component', () => {
+        let comp: ButtonsComponent;
+        let fixture: ComponentFixture<ButtonsComponent>;
+        let service: ButtonsService;
 
         beforeEach(async(() => {
             TestBed.configureTestingModule({
                 imports: [ArmoryTestModule],
-                declarations: [SizingComponent],
+                declarations: [ButtonsComponent],
                 providers: [
-                    SizingService
+                    ButtonsService
                 ]
             })
-            .overrideTemplate(SizingComponent, '')
+            .overrideTemplate(ButtonsComponent, '')
             .compileComponents();
         }));
 
         beforeEach(() => {
-            fixture = TestBed.createComponent(SizingComponent);
+            fixture = TestBed.createComponent(ButtonsComponent);
             comp = fixture.componentInstance;
-            service = fixture.debugElement.injector.get(SizingService);
+            service = fixture.debugElement.injector.get(ButtonsService);
         });
 
         describe('OnInit', () => {
@@ -39,7 +39,7 @@ describe('Component Tests', () => {
                 const headers = new Headers();
                 headers.append('link', 'link;link');
                 spyOn(service, 'query').and.returnValue(Observable.of({
-                    json: [new Sizing(123)],
+                    json: [new Buttons(123)],
                     headers
                 }));
 
@@ -48,7 +48,7 @@ describe('Component Tests', () => {
 
                 // THEN
                 expect(service.query).toHaveBeenCalled();
-                expect(comp.sizings[0]).toEqual(jasmine.objectContaining({id: 123}));
+                expect(comp.buttons[0]).toEqual(jasmine.objectContaining({id: 123}));
             });
         });
     });

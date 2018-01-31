@@ -5,34 +5,34 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { SizingDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing-delete-dialog.component';
-import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.service';
+import { ButtonsDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons-delete-dialog.component';
+import { ButtonsService } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.service';
 
 describe('Component Tests', () => {
 
-    describe('Sizing Management Delete Component', () => {
-        let comp: SizingDeleteDialogComponent;
-        let fixture: ComponentFixture<SizingDeleteDialogComponent>;
-        let service: SizingService;
+    describe('Buttons Management Delete Component', () => {
+        let comp: ButtonsDeleteDialogComponent;
+        let fixture: ComponentFixture<ButtonsDeleteDialogComponent>;
+        let service: ButtonsService;
         let mockEventManager: any;
         let mockActiveModal: any;
 
         beforeEach(async(() => {
             TestBed.configureTestingModule({
                 imports: [ArmoryTestModule],
-                declarations: [SizingDeleteDialogComponent],
+                declarations: [ButtonsDeleteDialogComponent],
                 providers: [
-                    SizingService
+                    ButtonsService
                 ]
             })
-            .overrideTemplate(SizingDeleteDialogComponent, '')
+            .overrideTemplate(ButtonsDeleteDialogComponent, '')
             .compileComponents();
         }));
 
         beforeEach(() => {
-            fixture = TestBed.createComponent(SizingDeleteDialogComponent);
+            fixture = TestBed.createComponent(ButtonsDeleteDialogComponent);
             comp = fixture.componentInstance;
-            service = fixture.debugElement.injector.get(SizingService);
+            service = fixture.debugElement.injector.get(ButtonsService);
             mockEventManager = fixture.debugElement.injector.get(JhiEventManager);
             mockActiveModal = fixture.debugElement.injector.get(NgbActiveModal);
         });

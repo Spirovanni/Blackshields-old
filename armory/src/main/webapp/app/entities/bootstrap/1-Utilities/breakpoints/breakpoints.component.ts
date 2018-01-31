@@ -3,18 +3,21 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import { JhiEventManager, JhiParseLinks, JhiAlertService, JhiDataUtils } from 'ng-jhipster';
 
-import { Sizing } from './sizing.model';
-import { SizingService } from './sizing.service';
-import { ITEMS_PER_PAGE, Principal, ResponseWrapper } from '../../shared';
+import { Breakpoints } from './breakpoints.model';
+import { BreakpointsService } from './breakpoints.service';
+import { ITEMS_PER_PAGE, Principal, ResponseWrapper } from '../../../shared/index';
 
 @Component({
-    selector: 'jhi-sizing',
-    templateUrl: './sizing.component.html'
+    selector: 'jhi-breakpoints',
+    templateUrl: './breakpoints.component.html',
+    styleUrls: [
+        'breakpoints.component.scss'
+    ]
 })
-export class SizingComponent implements OnInit, OnDestroy {
+export class BreakpointsComponent implements OnInit, OnDestroy {
 
 currentAccount: any;
-    sizings: Sizing[];
+    breakpoints: Breakpoints[];
     error: any;
     success: any;
     eventSubscriber: Subscription;
@@ -30,7 +33,7 @@ currentAccount: any;
     reverse: any;
 
     constructor(
-        private sizingService: SizingService,
+        private breakpointsService: BreakpointsService,
         private parseLinks: JhiParseLinks,
         private jhiAlertService: JhiAlertService,
         private principal: Principal,
@@ -52,7 +55,7 @@ currentAccount: any;
 
     loadAll() {
         if (this.currentSearch) {
-            this.sizingService.search({
+            this.breakpointsService.search({
                 page: this.page - 1,
                 query: this.currentSearch,
                 size: this.itemsPerPage,
@@ -62,7 +65,7 @@ currentAccount: any;
                 );
             return;
         }
-        this.sizingService.query({
+        this.breakpointsService.query({
             page: this.page - 1,
             size: this.itemsPerPage,
             sort: this.sort()}).subscribe(
@@ -77,7 +80,7 @@ currentAccount: any;
         }
     }
     transition() {
-        this.router.navigate(['/sizing'], {queryParams:
+        this.router.navigate(['/breakpoints'], {queryParams:
             {
                 page: this.page,
                 size: this.itemsPerPage,
@@ -91,7 +94,7 @@ currentAccount: any;
     clear() {
         this.page = 0;
         this.currentSearch = '';
-        this.router.navigate(['/sizing', {
+        this.router.navigate(['/breakpoints', {
             page: this.page,
             sort: this.predicate + ',' + (this.reverse ? 'asc' : 'desc')
         }]);
@@ -103,7 +106,7 @@ currentAccount: any;
         }
         this.page = 0;
         this.currentSearch = query;
-        this.router.navigate(['/sizing', {
+        this.router.navigate(['/breakpoints', {
             search: this.currentSearch,
             page: this.page,
             sort: this.predicate + ',' + (this.reverse ? 'asc' : 'desc')
@@ -115,14 +118,14 @@ currentAccount: any;
         this.principal.identity().then((account) => {
             this.currentAccount = account;
         });
-        this.registerChangeInSizings();
+        this.registerChangeInBreakpoints();
     }
 
     ngOnDestroy() {
         this.eventManager.destroy(this.eventSubscriber);
     }
 
-    trackId(index: number, item: Sizing) {
+    trackId(index: number, item: Breakpoints) {
         return item.id;
     }
 
@@ -133,8 +136,8 @@ currentAccount: any;
     openFile(contentType, field) {
         return this.dataUtils.openFile(contentType, field);
     }
-    registerChangeInSizings() {
-        this.eventSubscriber = this.eventManager.subscribe('sizingListModification', (response) => this.loadAll());
+    registerChangeInBreakpoints() {
+        this.eventSubscriber = this.eventManager.subscribe('breakpointsListModification', (response) => this.loadAll());
     }
 
     sort() {
@@ -150,7 +153,7 @@ currentAccount: any;
         this.totalItems = headers.get('X-Total-Count');
         this.queryCount = this.totalItems;
         // this.page = pagingParams.page;
-        this.sizings = data;
+        this.breakpoints = data;
     }
     private onError(error) {
         this.jhiAlertService.error(error.message, null, null);

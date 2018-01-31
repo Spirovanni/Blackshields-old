@@ -4,33 +4,33 @@ import { Observable } from 'rxjs/Observable';
 import { Headers } from '@angular/http';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { SizingComponent } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.component';
-import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.service';
-import { Sizing } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.model';
+import { BreakpointsComponent } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.component';
+import { BreakpointsService } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.service';
+import { Breakpoints } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.model';
 
 describe('Component Tests', () => {
 
-    describe('Sizing Management Component', () => {
-        let comp: SizingComponent;
-        let fixture: ComponentFixture<SizingComponent>;
-        let service: SizingService;
+    describe('Breakpoints Management Component', () => {
+        let comp: BreakpointsComponent;
+        let fixture: ComponentFixture<BreakpointsComponent>;
+        let service: BreakpointsService;
 
         beforeEach(async(() => {
             TestBed.configureTestingModule({
                 imports: [ArmoryTestModule],
-                declarations: [SizingComponent],
+                declarations: [BreakpointsComponent],
                 providers: [
-                    SizingService
+                    BreakpointsService
                 ]
             })
-            .overrideTemplate(SizingComponent, '')
+            .overrideTemplate(BreakpointsComponent, '')
             .compileComponents();
         }));
 
         beforeEach(() => {
-            fixture = TestBed.createComponent(SizingComponent);
+            fixture = TestBed.createComponent(BreakpointsComponent);
             comp = fixture.componentInstance;
-            service = fixture.debugElement.injector.get(SizingService);
+            service = fixture.debugElement.injector.get(BreakpointsService);
         });
 
         describe('OnInit', () => {
@@ -39,7 +39,7 @@ describe('Component Tests', () => {
                 const headers = new Headers();
                 headers.append('link', 'link;link');
                 spyOn(service, 'query').and.returnValue(Observable.of({
-                    json: [new Sizing(123)],
+                    json: [new Breakpoints(123)],
                     headers
                 }));
 
@@ -48,7 +48,7 @@ describe('Component Tests', () => {
 
                 // THEN
                 expect(service.query).toHaveBeenCalled();
-                expect(comp.sizings[0]).toEqual(jasmine.objectContaining({id: 123}));
+                expect(comp.breakpoints[0]).toEqual(jasmine.objectContaining({id: 123}));
             });
         });
     });

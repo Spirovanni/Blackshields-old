@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b8fc28-4e78-4940-ada5-1181fb4eace6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Staff2.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Staff2.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/resources/config/liquibase/master.xml" afterPath="$PROJECT_DIR$/armory/src/main/resources/config/liquibase/master.xml" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/index.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/index.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-delete-dialog.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-delete-dialog.component.html" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-delete-dialog.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-delete-dialog.component.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-detail.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-detail.component.html" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-detail.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-detail.component.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-dialog.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-dialog.component.html" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-dialog.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-dialog.component.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-popup.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-popup.service.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.component.html" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.component.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing.model.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.model.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.module.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing.route.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.route.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.service.ts" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/sizing.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/sizing.json" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/es/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/es/global.json" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/it/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/it/global.json" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing-delete-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing-delete-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing-detail.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing-detail.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing.service.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing.service.spec.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,28 +37,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/primeng/src/main/webapp/app/layouts/navbar/navbar.component.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="238">
-                    <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="32" selection-end-column="24" />
-                    <folding>
-                      <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
@@ -47,7 +44,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="175">
-                <caret line="170" column="29" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
+                <caret line="170" column="9" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
                 <folding>
                   <marker date="1517200640830" expanded="true" signature="1777:1967" ph="..." />
                   <marker date="1517200640830" expanded="true" signature="1817:1958" ph="{...}" />
@@ -61,22 +58,39 @@
       <file leaf-file-name="global.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="92" column="60" lean-forward="false" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
+            <state relative-caret-position="526">
+              <caret line="95" column="49" lean-forward="false" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spacing.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/spacing/spacing.component.html">
+      <file leaf-file-name="activate.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/activate.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basictypography.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/basictypography.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buttons.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/buttons.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="11" column="79" lean-forward="false" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,8 +98,21 @@
       <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="498" column="30" lean-forward="false" selection-start-line="498" selection-start-column="30" selection-end-line="498" selection-end-column="30" />
+            <state relative-caret-position="40">
+              <caret line="518" column="30" lean-forward="false" selection-start-line="518" selection-start-column="30" selection-end-line="518" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basictypography.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2157">
+              <caret line="153" column="6" lean-forward="false" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -104,10 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/components/index.ts" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/layouts/one-column/one-column.layout.scss" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/layouts/sample/sample.layout.scss" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/layouts/three-columns/three-columns.layout.scss" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/layouts/two-columns/two-columns.layout.scss" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/theme.module.ts" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -152,8 +175,12 @@
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/colorsbackground.json" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.component.html" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/spacing.json" />
-        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/spacing/spacing.component.html" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/sizing.json" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.component.html" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/breakpoints.json" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/buttons.json" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" />
       </list>
     </option>
@@ -262,18 +289,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
               <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
-              <item name="armory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="spacing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
@@ -550,16 +565,15 @@
       <workItem from="1516859507797" duration="25171000" />
       <workItem from="1517098788155" duration="16327000" />
       <workItem from="1517119957323" duration="13239000" />
-      <workItem from="1517192955000" duration="33647000" />
+      <workItem from="1517192955000" duration="38460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300735000" />
+    <option name="totallyTimeSpent" value="305548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="4" width="1111" height="722" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -570,7 +584,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844827" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42078364" sideWeight="0.48965517" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42078364" sideWeight="0.48965517" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -706,43 +720,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/primeng/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/primeng/src/test/resources/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/entities/basictypography/basictypography.model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/entities/basictypography/basictypography.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-732">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/shared/model/base-entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/barbican/src/main/java/com/spirovanni/blackshields/BarbicanApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1055">
@@ -981,14 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/basictypography.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
@@ -1074,17 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="153" column="6" lean-forward="false" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/spacing.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1101,14 +1059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="498" column="30" lean-forward="false" selection-start-line="498" selection-start-column="30" selection-end-line="498" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1120,14 +1070,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/sizing.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/spacing/spacing.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2157">
+          <caret line="153" column="6" lean-forward="false" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +1113,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="175">
-            <caret line="170" column="29" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
+            <caret line="170" column="9" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
             <folding>
               <marker date="1517200640830" expanded="true" signature="1777:1967" ph="..." />
               <marker date="1517200640830" expanded="true" signature="1817:1958" ph="{...}" />
@@ -1145,10 +1123,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/breakpoints.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="77" lean-forward="false" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/activate.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/basictypography.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="518" column="30" lean-forward="false" selection-start-line="518" selection-start-column="30" selection-end-line="518" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/buttons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="11" column="79" lean-forward="false" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="92" column="60" lean-forward="false" selection-start-line="92" selection-start-column="60" selection-end-line="92" selection-end-column="60" />
+        <state relative-caret-position="526">
+          <caret line="95" column="49" lean-forward="false" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
           <folding />
         </state>
       </provider>

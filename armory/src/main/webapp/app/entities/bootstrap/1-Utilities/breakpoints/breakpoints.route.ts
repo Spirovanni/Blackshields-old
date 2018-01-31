@@ -2,14 +2,14 @@ import { Injectable } from '@angular/core';
 import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot, Routes } from '@angular/router';
 import { JhiPaginationUtil } from 'ng-jhipster';
 
-import { UserRouteAccessService } from '../../shared';
-import { SizingComponent } from './sizing.component';
-import { SizingDetailComponent } from './sizing-detail.component';
-import { SizingPopupComponent } from './sizing-dialog.component';
-import { SizingDeletePopupComponent } from './sizing-delete-dialog.component';
+import { UserRouteAccessService } from '../../../shared/index';
+import { BreakpointsComponent } from './breakpoints.component';
+import { BreakpointsDetailComponent } from './breakpoints-detail.component';
+import { BreakpointsPopupComponent } from './breakpoints-dialog.component';
+import { BreakpointsDeletePopupComponent } from './breakpoints-delete-dialog.component';
 
 @Injectable()
-export class SizingResolvePagingParams implements Resolve<any> {
+export class BreakpointsResolvePagingParams implements Resolve<any> {
 
     constructor(private paginationUtil: JhiPaginationUtil) {}
 
@@ -24,56 +24,56 @@ export class SizingResolvePagingParams implements Resolve<any> {
     }
 }
 
-export const sizingRoute: Routes = [
+export const breakpointsRoute: Routes = [
     {
-        path: 'sizing',
-        component: SizingComponent,
+        path: 'breakpoints',
+        component: BreakpointsComponent,
         resolve: {
-            'pagingParams': SizingResolvePagingParams
+            'pagingParams': BreakpointsResolvePagingParams
         },
         data: {
             authorities: ['ROLE_USER'],
-            pageTitle: 'armoryApp.sizing.home.title'
+            pageTitle: 'armoryApp.breakpoints.home.title'
         },
         canActivate: [UserRouteAccessService]
     }, {
-        path: 'sizing/:id',
-        component: SizingDetailComponent,
+        path: 'breakpoints/:id',
+        component: BreakpointsDetailComponent,
         data: {
             authorities: ['ROLE_USER'],
-            pageTitle: 'armoryApp.sizing.home.title'
+            pageTitle: 'armoryApp.breakpoints.home.title'
         },
         canActivate: [UserRouteAccessService]
     }
 ];
 
-export const sizingPopupRoute: Routes = [
+export const breakpointsPopupRoute: Routes = [
     {
-        path: 'sizing-new',
-        component: SizingPopupComponent,
+        path: 'breakpoints-new',
+        component: BreakpointsPopupComponent,
         data: {
             authorities: ['ROLE_USER'],
-            pageTitle: 'armoryApp.sizing.home.title'
+            pageTitle: 'armoryApp.breakpoints.home.title'
         },
         canActivate: [UserRouteAccessService],
         outlet: 'popup'
     },
     {
-        path: 'sizing/:id/edit',
-        component: SizingPopupComponent,
+        path: 'breakpoints/:id/edit',
+        component: BreakpointsPopupComponent,
         data: {
             authorities: ['ROLE_USER'],
-            pageTitle: 'armoryApp.sizing.home.title'
+            pageTitle: 'armoryApp.breakpoints.home.title'
         },
         canActivate: [UserRouteAccessService],
         outlet: 'popup'
     },
     {
-        path: 'sizing/:id/delete',
-        component: SizingDeletePopupComponent,
+        path: 'breakpoints/:id/delete',
+        component: BreakpointsDeletePopupComponent,
         data: {
             authorities: ['ROLE_USER'],
-            pageTitle: 'armoryApp.sizing.home.title'
+            pageTitle: 'armoryApp.breakpoints.home.title'
         },
         canActivate: [UserRouteAccessService],
         outlet: 'popup'

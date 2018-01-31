@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "breakpoints" : {
+            "home": {
+                "title": "Breakpoints",
+                "createLabel": "Create a note",
+                "createOrEditLabel": "Create or edit a Breakpoints note",
+                "search": "Search for Breakpoints note"
+            },
+            "created": "A new Breakpoints is created with identifier note{{ param }}",
+            "updated": "A Breakpoints is updated with identifier note{{ param }}",
+            "deleted": "A Breakpoints is deleted with identifier note{{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Breakpoints note{{ id }}?"
+            },
+            "detail": {
+                "title": "Breakpoints"
+            },
+            "date": "Date",
+            "stage": "Stage",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}

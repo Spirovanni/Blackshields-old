@@ -1,10 +1,10 @@
 <div>
     <h2>
-        <span jhiTranslate="armoryApp.sizing.home.title">Sizings</span>
-        <button class="btn btn-primary float-right jh-create-entity create-sizing" [routerLink]="['/', { outlets: { popup: ['sizing-new'] } }]">
+        <span jhiTranslate="armoryApp.buttons.home.title">Buttons</span>
+        <button class="btn btn-primary float-right jh-create-entity create-buttons" [routerLink]="['/', { outlets: { popup: ['buttons-new'] } }]">
             <span class="fa fa-plus"></span>
-            <span class="hidden-sm-down"  jhiTranslate="armoryApp.sizing.home.createLabel">
-            Create new Sizing
+            <span class="hidden-sm-down"  jhiTranslate="armoryApp.buttons.home.createLabel">
+            Create new Buttons
             </span>
         </button>
     </h2>
@@ -13,7 +13,7 @@
         <div class="col-sm-12">
             <form name="searchForm" class="form-inline">
                 <div class="input-group w-100 mt-3">
-                    <input type="text" class="form-control" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'armoryApp.sizing.home.search' | translate }}">
+                    <input type="text" class="form-control" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'armoryApp.buttons.home.search' | translate }}">
                     <button class="input-group-addon btn btn-info" (click)="search(currentSearch)">
                         <span class="fa fa-search"></span>
                     </button>
@@ -25,40 +25,40 @@
         </div>
     </div>
     <br/>
-    <div class="table-responsive" *ngIf="sizings">
+    <div class="table-responsive" *ngIf="buttons">
         <table class="table table-striped">
             <thead>
             <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="transition.bind(this)">
             <th jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <span class="fa fa-sort"></span></th>
-            <th jhiSortBy="date"><span jhiTranslate="armoryApp.sizing.date">Date</span> <span class="fa fa-sort"></span></th>
-            <th jhiSortBy="status"><span jhiTranslate="armoryApp.sizing.status">Status</span> <span class="fa fa-sort"></span></th>
-            <th jhiSortBy="description"><span jhiTranslate="armoryApp.sizing.description">Description</span> <span class="fa fa-sort"></span></th>
-            <th jhiSortBy="picture"><span jhiTranslate="armoryApp.sizing.picture">Picture</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="date"><span jhiTranslate="armoryApp.buttons.date">Date</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="stage"><span jhiTranslate="armoryApp.buttons.stage">Stage</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="description"><span jhiTranslate="armoryApp.buttons.description">Description</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="picture"><span jhiTranslate="armoryApp.buttons.picture">Picture</span> <span class="fa fa-sort"></span></th>
             <th></th>
             </tr>
             </thead>
             <tbody>
-            <tr *ngFor="let sizing of sizings ;trackBy: trackId">
-                <td><a [routerLink]="['../sizing', sizing.id ]">{{sizing.id}}</a></td>
-                <td>{{sizing.date | date:'mediumDate'}}</td>
-                <td jhiTranslate="{{'armoryApp.Status.' + sizing.status}}">{{sizing.status}}</td>
-                <td>{{sizing.description}}</td>
+            <tr *ngFor="let buttons of buttons ;trackBy: trackId">
+                <td><a [routerLink]="['../buttons', buttons.id ]">{{buttons.id}}</a></td>
+                <td>{{buttons.date | date:'mediumDate'}}</td>
+                <td jhiTranslate="{{'armoryApp.Stage.' + buttons.stage}}">{{buttons.stage}}</td>
+                <td>{{buttons.description}}</td>
                 <td>
-                    <a *ngIf="sizing.picture" (click)="openFile(sizing.pictureContentType, sizing.picture)">
-                        <img [src]="'data:' + sizing.pictureContentType + ';base64,' + sizing.picture" style="max-height: 30px;" alt="sizing image"/>
+                    <a *ngIf="buttons.picture" (click)="openFile(buttons.pictureContentType, buttons.picture)">
+                        <img [src]="'data:' + buttons.pictureContentType + ';base64,' + buttons.picture" style="max-height: 30px;" alt="buttons image"/>
                     </a>
-                    <span *ngIf="sizing.picture">{{sizing.pictureContentType}}, {{byteSize(sizing.picture)}}</span>
+                    <span *ngIf="buttons.picture">{{buttons.pictureContentType}}, {{byteSize(buttons.picture)}}</span>
                 </td>
                 <td class="text-right">
                     <div class="btn-group flex-btn-group-container">
                         <button type="submit"
-                                [routerLink]="['../sizing', sizing.id ]"
+                                [routerLink]="['../buttons', buttons.id ]"
                                 class="btn btn-info btn-sm">
                             <span class="fa fa-eye"></span>
                             <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
                         </button>
                         <button type="submit"
-                                [routerLink]="['/', { outlets: { popup: 'sizing/'+ sizing.id + '/edit'} }]"
+                                [routerLink]="['/', { outlets: { popup: 'buttons/'+ buttons.id + '/edit'} }]"
                                 replaceUrl="true"
                                 queryParamsHandling="merge"
                                 class="btn btn-primary btn-sm">
@@ -66,7 +66,7 @@
                             <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
                         </button>
                         <button type="submit"
-                                [routerLink]="['/', { outlets: { popup: 'sizing/'+ sizing.id + '/delete'} }]"
+                                [routerLink]="['/', { outlets: { popup: 'buttons/'+ buttons.id + '/delete'} }]"
                                 replaceUrl="true"
                                 queryParamsHandling="merge"
                                 class="btn btn-danger btn-sm">
@@ -79,7 +79,7 @@
             </tbody>
         </table>
     </div>
-    <div *ngIf="sizings && sizings.length">
+    <div *ngIf="buttons && buttons.length">
         <div class="row justify-content-center">
             <jhi-item-count [page]="page" [total]="queryCount" [maxSize]="5" [itemsPerPage]="itemsPerPage"></jhi-item-count>
         </div>

@@ -1,0 +1,125 @@
+<div>
+    <h2>
+        <span jhiTranslate="armoryApp.sizing.home.title">Sizings</span>
+        <button class="btn btn-primary float-right jh-create-entity create-sizing" [routerLink]="['/', { outlets: { popup: ['sizing-new'] } }]">
+            <span class="fa fa-plus"></span>
+            <span class="hidden-sm-down"  jhiTranslate="armoryApp.sizing.home.createLabel">
+            Create new Sizing
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <div class="row">
+        <div class="col-sm-12">
+            <form name="searchForm" class="form-inline">
+                <div class="input-group w-100 mt-3">
+                    <input type="text" class="form-control" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'armoryApp.sizing.home.search' | translate }}">
+                    <button class="input-group-addon btn btn-info" (click)="search(currentSearch)">
+                        <span class="fa fa-search"></span>
+                    </button>
+                    <button class="input-group-addon btn btn-danger" (click)="clear()" *ngIf="currentSearch">
+                        <span class="fa fa-trash-o"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive" *ngIf="sizings">
+        <table class="table table-striped">
+            <thead>
+            <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="transition.bind(this)">
+            <th jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="date"><span jhiTranslate="armoryApp.sizing.date">Date</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="status"><span jhiTranslate="armoryApp.sizing.status">Status</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="description"><span jhiTranslate="armoryApp.sizing.description">Description</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="picture"><span jhiTranslate="armoryApp.sizing.picture">Picture</span> <span class="fa fa-sort"></span></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let sizing of sizings ;trackBy: trackId">
+                <td><a [routerLink]="['../sizing', sizing.id ]">{{sizing.id}}</a></td>
+                <td>{{sizing.date | date:'mediumDate'}}</td>
+                <td jhiTranslate="{{'armoryApp.Status.' + sizing.status}}">{{sizing.status}}</td>
+                <td>{{sizing.description}}</td>
+                <td>
+                    <a *ngIf="sizing.picture" (click)="openFile(sizing.pictureContentType, sizing.picture)">
+                        <img [src]="'data:' + sizing.pictureContentType + ';base64,' + sizing.picture" style="max-height: 30px;" alt="sizing image"/>
+                    </a>
+                    <span *ngIf="sizing.picture">{{sizing.pictureContentType}}, {{byteSize(sizing.picture)}}</span>
+                </td>
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['../sizing', sizing.id ]"
+                                class="btn btn-info btn-sm">
+                            <span class="fa fa-eye"></span>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'sizing/'+ sizing.id + '/edit'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-primary btn-sm">
+                            <span class="fa fa-pencil"></span>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'sizing/'+ sizing.id + '/delete'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-danger btn-sm">
+                            <span class="fa fa-remove"></span>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div *ngIf="sizings && sizings.length">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="queryCount" [maxSize]="5" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="page" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage(page)"></ngb-pagination>
+        </div>
+    </div>
+</div>
+<div class="container" style="margin-top:100px;">
+    <!--##################START HERE####################-->
+
+    <!-- WIDTH CLASSES -->
+    <div class="bg-success p-3 w-25">Width 25%</div>
+    <div class="bg-success p-3 w-50">Width 50%</div>
+    <div class="bg-success p-3 w-75">Width 75%</div>
+    <div class="bg-success p-3 w-100">Width 100%</div>
+
+    <br><br>
+
+    <!-- HEIGHT CLASSES -->
+    <div style="height:300px;border:1px solid #333;">
+        <div class="bg-primary d-inline-block h-25">Height 25%</div>
+        <div class="bg-primary d-inline-block h-50">Height 50%</div>
+        <div class="bg-primary d-inline-block h-75">Height 75%</div>
+        <div class="bg-primary d-inline-block h-100">Height 100%</div>
+    </div>
+
+    <br><br>
+
+    <!-- BORDERS -->
+    <div class="p-3 mb-2 bg-light border">Regular</div>
+    <div class="p-3 mb-2 bg-light border border-primary rounded">Primary</div>
+    <div class="p-3 mb-2 bg-light border border-secondary rounded-top">Secondary</div>
+    <div class="p-3 mb-2 bg-light border border-success border-bottom-0">Success</div>
+    <div class="p-3 mb-2 bg-light border border-info">Info</div>
+    <div class="p-3 mb-2 bg-light border border-warning">Warning</div>
+    <div class="p-3 mb-2 bg-light border border-danger">Danger</div>
+    <div class="p-3 mb-2 bg-light border border-light">Light</div>
+    <div class="p-3 mb-2 bg-light border border-dark">Dark</div>
+    <div class="p-3 mb-2 bg-light border border-white">White</div>
+
+</div><!-- ./container -->
+<div style="margin-top:100px;"></div>

@@ -1,0 +1,41 @@
+/* Small devices (landscape phones) */
+@media (min-width:576px) {
+    .breakpoints{
+        background:red;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width:768px) {
+    .breakpoints{
+        background:blue;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width:992px) {
+    .breakpoints{
+        background: green;
+    }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width:1200px) {
+    .breakpoints{
+        background:yellow;
+    }
+}
+
+/* The given screen size or smaller */
+
+/* Extra small devices (portrait phones)*/
+@media (max-width:575px) {}
+
+/* Small devices (landscape phones)*/
+@media (max-width:767px) {}
+
+/* Medium devices (tablets)*/
+@media (max-width:991px) {}
+
+/* Large devices (desktops)*/
+@media (max-width:1199px) {}
