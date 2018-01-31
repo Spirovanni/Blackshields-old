@@ -5,7 +5,7 @@ import { JhiEventManager, JhiParseLinks, JhiAlertService, JhiDataUtils } from 'n
 
 import { Sizing } from './sizing.model';
 import { SizingService } from './sizing.service';
-import { ITEMS_PER_PAGE, Principal, ResponseWrapper } from '../../../shared/index';
+import { ITEMS_PER_PAGE, Principal, ResponseWrapper } from '../../../../shared/index';
 
 @Component({
     selector: 'jhi-sizing',

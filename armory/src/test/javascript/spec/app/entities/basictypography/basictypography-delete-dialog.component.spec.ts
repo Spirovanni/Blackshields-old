@@ -5,8 +5,8 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { BasictypographyDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography-delete-dialog.component';
-import { BasictypographyService } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.service';
+import { BasictypographyDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography-delete-dialog.component';
+import { BasictypographyService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.service';
 
 describe('Component Tests', () => {
 

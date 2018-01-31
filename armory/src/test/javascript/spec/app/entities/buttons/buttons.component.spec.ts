@@ -4,9 +4,9 @@ import { Observable } from 'rxjs/Observable';
 import { Headers } from '@angular/http';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { ButtonsComponent } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.component';
-import { ButtonsService } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.service';
-import { Buttons } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.model';
+import { ButtonsComponent } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.component';
+import { ButtonsService } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.service';
+import { Buttons } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.model';
 
 describe('Component Tests', () => {
 

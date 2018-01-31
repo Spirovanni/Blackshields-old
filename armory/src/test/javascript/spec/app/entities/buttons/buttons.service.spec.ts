@@ -4,8 +4,8 @@ import { MockBackend } from '@angular/http/testing';
 import { ConnectionBackend, RequestOptions, BaseRequestOptions, Http, Response, ResponseOptions } from '@angular/http';
 import { JhiDateUtils } from 'ng-jhipster';
 
-import { ButtonsService } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.service';
-import { Buttons } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.model';
+import { ButtonsService } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.service';
+import { Buttons } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.model';
 import { SERVER_API_URL } from '../../../../../../main/webapp/app/app.constants';
 
 describe('Service Tests', () => {

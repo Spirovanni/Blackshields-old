@@ -3,9 +3,9 @@ import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 import { Observable } from 'rxjs/Observable';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { BreakpointsDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints-detail.component';
-import { BreakpointsService } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.service';
-import { Breakpoints } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.model';
+import { BreakpointsDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints-detail.component';
+import { BreakpointsService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.service';
+import { Breakpoints } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.model';
 
 describe('Component Tests', () => {
 

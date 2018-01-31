@@ -5,9 +5,9 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { BreakpointsDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints-dialog.component';
-import { BreakpointsService } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.service';
-import { Breakpoints } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.model';
+import { BreakpointsDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints-dialog.component';
+import { BreakpointsService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.service';
+import { Breakpoints } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.model';
 
 describe('Component Tests', () => {
 

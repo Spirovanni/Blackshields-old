@@ -95,6 +95,7 @@
                 "sizing": "1.6 Sizing",
                 "breakpoints": "1.7 Breakpoints",
                 "buttons": "2.1 Buttons",
+                "navbar": "Navbar",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

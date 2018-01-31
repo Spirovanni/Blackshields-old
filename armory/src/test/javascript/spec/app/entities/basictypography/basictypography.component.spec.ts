@@ -4,9 +4,9 @@ import { Observable } from 'rxjs/Observable';
 import { Headers } from '@angular/http';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { BasictypographyComponent } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.component';
-import { BasictypographyService } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.service';
-import { Basictypography } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.model';
+import { BasictypographyComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.component';
+import { BasictypographyService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.service';
+import { Basictypography } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.model';
 
 describe('Component Tests', () => {
 

@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "navbar" : {
+            "home": {
+                "title": "Navbars",
+                "createLabel": "Crear nuevo Navbar",
+                "createOrEditLabel": "Crear o editar Navbar",
+                "search": "Search for Navbar"
+            },
+            "created": "Un nuevo Navbar ha sido creado con el identificador {{ param }}",
+            "updated": "Un Navbar ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Navbar ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Navbar {{ id }}?"
+            },
+            "detail": {
+                "title": "Navbar"
+            },
+            "date": "Date",
+            "status": "Status",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}

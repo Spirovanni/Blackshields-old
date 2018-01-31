@@ -3,9 +3,9 @@ import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 import { Observable } from 'rxjs/Observable';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { FloatspositionDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/floatsposition/floatsposition-detail.component';
-import { FloatspositionService } from '../../../../../../main/webapp/app/entities/bootstrap/floatsposition/floatsposition.service';
-import { Floatsposition } from '../../../../../../main/webapp/app/entities/bootstrap/floatsposition/floatsposition.model';
+import { FloatspositionDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition-detail.component';
+import { FloatspositionService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.service';
+import { Floatsposition } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.model';
 
 describe('Component Tests', () => {
 

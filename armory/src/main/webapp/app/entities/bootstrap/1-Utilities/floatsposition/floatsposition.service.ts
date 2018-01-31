@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
-import { SERVER_API_URL } from '../../../app.constants';
+import { SERVER_API_URL } from '../../../../app.constants';
 
 import { JhiDateUtils } from 'ng-jhipster';
 
 import { Floatsposition } from './floatsposition.model';
-import { ResponseWrapper, createRequestOption } from '../../../shared/index';
+import { ResponseWrapper, createRequestOption } from '../../../../shared/index';
 
 @Injectable()
 export class FloatspositionService {

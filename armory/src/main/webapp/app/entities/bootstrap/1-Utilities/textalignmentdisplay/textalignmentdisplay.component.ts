@@ -5,7 +5,7 @@ import { JhiEventManager, JhiParseLinks, JhiAlertService, JhiDataUtils } from 'n
 
 import { Textalignmentdisplay } from './textalignmentdisplay.model';
 import { TextalignmentdisplayService } from './textalignmentdisplay.service';
-import { ITEMS_PER_PAGE, Principal, ResponseWrapper } from '../../../shared/index';
+import { ITEMS_PER_PAGE, Principal, ResponseWrapper } from '../../../../shared/index';
 
 @Component({
     selector: 'jhi-textalignmentdisplay',

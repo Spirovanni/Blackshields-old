@@ -5,8 +5,8 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { ButtonsDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons-delete-dialog.component';
-import { ButtonsService } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.service';
+import { ButtonsDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons-delete-dialog.component';
+import { ButtonsService } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.service';
 
 describe('Component Tests', () => {
 

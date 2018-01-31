@@ -4,9 +4,9 @@ import { Observable } from 'rxjs/Observable';
 import { Headers } from '@angular/http';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { BreakpointsComponent } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.component';
-import { BreakpointsService } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.service';
-import { Breakpoints } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.model';
+import { BreakpointsComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.component';
+import { BreakpointsService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.service';
+import { Breakpoints } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.model';
 
 describe('Component Tests', () => {
 

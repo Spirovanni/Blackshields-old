@@ -4,31 +4,93 @@
     <list default="true" id="40b8fc28-4e78-4940-ada5-1181fb4eace6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/resources/config/liquibase/master.xml" afterPath="$PROJECT_DIR$/armory/src/main/resources/config/liquibase/master.xml" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.component.html" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.component.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.model.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.model.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.module.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.route.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.route.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.service.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.component.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.model.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.model.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.module.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.route.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.route.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.service.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.component.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.model.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.model.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.module.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.route.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.route.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.service.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.component.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.model.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.model.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.module.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.route.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.route.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.service.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.component.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.model.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.model.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.module.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.route.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.route.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.service.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.component.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.model.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.model.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.module.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.route.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.route.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.service.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.component.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.model.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.model.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.module.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.route.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.route.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.service.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.component.html" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.component.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.model.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.model.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.module.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.route.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.route.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.service.ts" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/index.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/index.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-delete-dialog.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-delete-dialog.component.html" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-delete-dialog.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-delete-dialog.component.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-detail.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-detail.component.html" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-detail.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-detail.component.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-dialog.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-dialog.component.html" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-dialog.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-dialog.component.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing-popup.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing-popup.service.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.component.html" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing.component.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.component.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing.model.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.model.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing.module.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.module.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing.route.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.route.ts" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/sizing/sizing.service.ts" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.service.ts" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" afterPath="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" />
-      <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/sizing.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/sizing.json" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/es/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/es/global.json" />
       <change beforePath="$PROJECT_DIR$/armory/src/main/webapp/i18n/it/global.json" afterPath="$PROJECT_DIR$/armory/src/main/webapp/i18n/it/global.json" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography-delete-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography-delete-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography-detail.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography-detail.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography.service.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/basictypography/basictypography.service.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/breakpoints/breakpoints-delete-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/breakpoints/breakpoints-delete-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/breakpoints/breakpoints-detail.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/breakpoints/breakpoints-detail.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/breakpoints/breakpoints-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/breakpoints/breakpoints-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/breakpoints/breakpoints.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/breakpoints/breakpoints.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/breakpoints/breakpoints.service.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/breakpoints/breakpoints.service.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/buttons/buttons-delete-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/buttons/buttons-delete-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/buttons/buttons-detail.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/buttons/buttons-detail.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/buttons/buttons-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/buttons/buttons-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/buttons/buttons.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/buttons/buttons.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/buttons/buttons.service.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/buttons/buttons.service.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/colorsbackground/colorsbackground-delete-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/colorsbackground/colorsbackground-delete-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/colorsbackground/colorsbackground-detail.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/colorsbackground/colorsbackground-detail.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/colorsbackground/colorsbackground-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/colorsbackground/colorsbackground-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/colorsbackground/colorsbackground.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/colorsbackground/colorsbackground.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/colorsbackground/colorsbackground.service.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/colorsbackground/colorsbackground.service.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/floatsposition/floatsposition-delete-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/floatsposition/floatsposition-delete-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/floatsposition/floatsposition-detail.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/floatsposition/floatsposition-detail.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/floatsposition/floatsposition-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/floatsposition/floatsposition-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/floatsposition/floatsposition.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/floatsposition/floatsposition.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/floatsposition/floatsposition.service.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/floatsposition/floatsposition.service.spec.ts" />
       <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing-delete-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing-delete-dialog.component.spec.ts" />
       <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing-detail.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing-detail.component.spec.ts" />
       <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing-dialog.component.spec.ts" />
       <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing.component.spec.ts" />
       <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing.service.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/sizing/sizing.service.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/spacing/spacing-delete-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/spacing/spacing-delete-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/spacing/spacing-detail.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/spacing/spacing-detail.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/spacing/spacing-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/spacing/spacing-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/spacing/spacing.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/spacing/spacing.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/spacing/spacing.service.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/spacing/spacing.service.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/textalignmentdisplay/textalignmentdisplay-delete-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/textalignmentdisplay/textalignmentdisplay-delete-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/textalignmentdisplay/textalignmentdisplay-detail.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/textalignmentdisplay/textalignmentdisplay-detail.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/textalignmentdisplay/textalignmentdisplay-dialog.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/textalignmentdisplay/textalignmentdisplay-dialog.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/textalignmentdisplay/textalignmentdisplay.component.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/textalignmentdisplay/textalignmentdisplay.component.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/textalignmentdisplay/textalignmentdisplay.service.spec.ts" afterPath="$PROJECT_DIR$/armory/src/test/javascript/spec/app/entities/textalignmentdisplay/textalignmentdisplay.service.spec.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,12 +101,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="global.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="95" column="49" lean-forward="false" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/armory/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="175">
-                <caret line="170" column="9" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
+                <caret line="170" column="18" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
                 <folding>
                   <marker date="1517200640830" expanded="true" signature="1777:1967" ph="..." />
                   <marker date="1517200640830" expanded="true" signature="1817:1958" ph="{...}" />
@@ -55,64 +127,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json">
+      <file leaf-file-name="navbar.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/navbar/navbar.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="95" column="49" lean-forward="false" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
+            <state relative-caret-position="85">
+              <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activate.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/activate.json">
+      <file leaf-file-name="navbar.model.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/navbar/navbar.model.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basictypography.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/basictypography.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buttons.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/buttons.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="11" column="79" lean-forward="false" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="518" column="30" lean-forward="false" selection-start-line="518" selection-start-column="30" selection-end-line="518" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basictypography.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2157">
-              <caret line="153" column="6" lean-forward="false" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
+            <state relative-caret-position="102">
+              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -131,13 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/layouts/two-columns/two-columns.layout.scss" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/@theme/theme.module.ts" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/bootstrap/basictypography/basic-typography.route.ts" />
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/i18n/en/primeng.json" />
-        <option value="$PROJECT_DIR$/barbican/src/main/resources/config/application-dev.yml" />
-        <option value="$PROJECT_DIR$/battlements/src/main/webapp/app/primeng/menu/menubar/menubardemo.module.ts" />
         <option value="$PROJECT_DIR$/battlements/src/main/webapp/app/primeng/menu/menu/menudemo.module.ts" />
         <option value="$PROJECT_DIR$/battlements/node_modules/primeng-extensions/components/wizard/wizard.js" />
         <option value="$PROJECT_DIR$/primeng/.yo-rc.json" />
@@ -182,6 +204,13 @@
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/buttons.json" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/breakpoints/breakpoints.component.ts" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/breakpoints/breakpoints.component.html" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/breakpoints/breakpoints.component.scss" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.component.html" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.component.html" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/navbar/navbar.model.ts" />
       </list>
     </option>
   </component>
@@ -207,7 +236,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-2" />
     <option name="y" value="4" />
-    <option name="width" value="1111" />
+    <option name="width" value="1325" />
     <option name="height" value="722" />
   </component>
   <component name="ProjectView">
@@ -289,6 +318,82 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
               <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="armory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="1-Utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="armory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="1-Utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="basictypography" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="armory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="1-Utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="breakpoints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="armory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="1-Utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="textalignmentdisplay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="armory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="2-CSSComponents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="armory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="2-CSSComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="navbar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
@@ -420,6 +525,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Staff2\dev\blkshlds\armory\src\main\webapp\app\entities\bootstrap\2-CSSComponents" />
+      <recent name="C:\Users\Staff2\dev\blkshlds\armory\src\main\webapp\app\entities\bootstrap\1-Utilities" />
       <recent name="C:\Users\Staff2\dev\blkshlds\armory\src\main\webapp\app\entities\bootstrap" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -565,15 +672,15 @@
       <workItem from="1516859507797" duration="25171000" />
       <workItem from="1517098788155" duration="16327000" />
       <workItem from="1517119957323" duration="13239000" />
-      <workItem from="1517192955000" duration="38460000" />
+      <workItem from="1517192955000" duration="49342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305548000" />
+    <option name="totallyTimeSpent" value="316430000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="4" width="1111" height="722" extended-state="0" />
+    <frame x="-2" y="4" width="1325" height="722" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -584,11 +691,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844827" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42078364" sideWeight="0.48965517" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.560477" sideWeight="0.48965517" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14367269" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18102767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2492891" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -720,81 +827,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/java/com/spirovanni/blackshields/BarbicanApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1055">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/blocks/config/prod.config.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="44" lean-forward="true" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/entities/entity.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/app.constants.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/app.main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/entities/basictypography/basictypography-popup.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/barbican/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="97" column="15" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="99" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/armory/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -904,20 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/primeng/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="139">
-            <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-            <folding>
-              <marker date="1517196500988" expanded="true" signature="2325:2515" ph="..." />
-              <marker date="1517196500988" expanded="true" signature="2365:2506" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/barbican/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -954,16 +972,6 @@
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#65#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1008,12 +1016,12 @@
         <state relative-caret-position="238">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="32" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay.component.html">
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="153" selection-end-column="37" />
@@ -1032,7 +1040,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/floatsposition/floatsposition.component.html">
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="90" column="48" lean-forward="false" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
@@ -1059,7 +1067,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.component.html">
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
@@ -1078,7 +1086,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/spacing/spacing.component.html">
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
@@ -1089,7 +1097,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/sizing/sizing.component.html">
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
@@ -1098,28 +1106,6 @@
             <element signature="n#style#0;n#div#4;n#div#1;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/basictypography/basictypography.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2157">
-          <caret line="153" column="6" lean-forward="false" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/armory/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="175">
-            <caret line="170" column="9" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
-            <folding>
-              <marker date="1517200640830" expanded="true" signature="1777:1967" ph="..." />
-              <marker date="1517200640830" expanded="true" signature="1817:1958" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1152,8 +1138,8 @@
         <state relative-caret-position="40">
           <caret line="518" column="30" lean-forward="false" selection-start-line="518" selection-start-column="30" selection-end-line="518" selection-end-column="30" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1166,10 +1152,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#65#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-949">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3481">
+          <caret line="282" column="6" lean-forward="false" selection-start-line="282" selection-start-column="5" selection-end-line="282" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay-popup.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#61#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="95" column="49" lean-forward="false" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/primeng/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="173">
+            <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+            <folding>
+              <marker date="1517196500988" expanded="true" signature="2325:2515" ph="..." />
+              <marker date="1517196500988" expanded="true" signature="2365:2506" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="175">
+            <caret line="170" column="18" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="45" />
+            <folding>
+              <marker date="1517200640830" expanded="true" signature="1777:1967" ph="..." />
+              <marker date="1517200640830" expanded="true" signature="1817:1958" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/navbar/navbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents/navbar/navbar.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>

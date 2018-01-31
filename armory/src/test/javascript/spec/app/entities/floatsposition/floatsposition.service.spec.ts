@@ -4,8 +4,8 @@ import { MockBackend } from '@angular/http/testing';
 import { ConnectionBackend, RequestOptions, BaseRequestOptions, Http, Response, ResponseOptions } from '@angular/http';
 import { JhiDateUtils } from 'ng-jhipster';
 
-import { FloatspositionService } from '../../../../../../main/webapp/app/entities/bootstrap/floatsposition/floatsposition.service';
-import { Floatsposition } from '../../../../../../main/webapp/app/entities/bootstrap/floatsposition/floatsposition.model';
+import { FloatspositionService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.service';
+import { Floatsposition } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.model';
 import { SERVER_API_URL } from '../../../../../../main/webapp/app/app.constants';
 
 describe('Service Tests', () => {

@@ -5,9 +5,9 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { ColorsbackgroundDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground-dialog.component';
-import { ColorsbackgroundService } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.service';
-import { Colorsbackground } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.model';
+import { ColorsbackgroundDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground-dialog.component';
+import { ColorsbackgroundService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.service';
+import { Colorsbackground } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.model';
 
 describe('Component Tests', () => {
 

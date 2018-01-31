@@ -5,8 +5,8 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { TextalignmentdisplayDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay-delete-dialog.component';
-import { TextalignmentdisplayService } from '../../../../../../main/webapp/app/entities/bootstrap/textalignmentdisplay/textalignmentdisplay.service';
+import { TextalignmentdisplayDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay-delete-dialog.component';
+import { TextalignmentdisplayService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.service';
 
 describe('Component Tests', () => {
 

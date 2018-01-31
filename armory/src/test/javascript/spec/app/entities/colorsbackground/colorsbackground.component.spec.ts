@@ -4,9 +4,9 @@ import { Observable } from 'rxjs/Observable';
 import { Headers } from '@angular/http';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { ColorsbackgroundComponent } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.component';
-import { ColorsbackgroundService } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.service';
-import { Colorsbackground } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.model';
+import { ColorsbackgroundComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.component';
+import { ColorsbackgroundService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.service';
+import { Colorsbackground } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.model';
 
 describe('Component Tests', () => {
 

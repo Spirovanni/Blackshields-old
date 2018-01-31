@@ -4,8 +4,8 @@ import { MockBackend } from '@angular/http/testing';
 import { ConnectionBackend, RequestOptions, BaseRequestOptions, Http, Response, ResponseOptions } from '@angular/http';
 import { JhiDateUtils } from 'ng-jhipster';
 
-import { ColorsbackgroundService } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.service';
-import { Colorsbackground } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.model';
+import { ColorsbackgroundService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.service';
+import { Colorsbackground } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.model';
 import { SERVER_API_URL } from '../../../../../../main/webapp/app/app.constants';
 
 describe('Service Tests', () => {

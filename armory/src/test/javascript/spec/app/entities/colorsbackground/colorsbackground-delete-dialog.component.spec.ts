@@ -5,8 +5,8 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { ColorsbackgroundDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground-delete-dialog.component';
-import { ColorsbackgroundService } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.service';
+import { ColorsbackgroundDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground-delete-dialog.component';
+import { ColorsbackgroundService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.service';
 
 describe('Component Tests', () => {
 
