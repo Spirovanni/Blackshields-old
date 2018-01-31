@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "buttons" : {
+            "home": {
+                "title": "Buttons",
+                "createLabel": "Create a note",
+                "createOrEditLabel": "Create or edit a Buttons note",
+                "search": "Search for Buttons note"
+            },
+            "created": "A new Buttons note is created with identifier {{ param }}",
+            "updated": "A Buttons note is updated with identifier {{ param }}",
+            "deleted": "A Buttons note is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Buttons note{{ id }}?"
+            },
+            "detail": {
+                "title": "Buttons"
+            },
+            "date": "Date",
+            "stage": "Stage",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}

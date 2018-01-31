@@ -93,6 +93,8 @@
                 "colorsbackground": "1.4 Colors Background",
                 "spacing": "1.5 Spacing",
                 "sizing": "1.6 Sizing",
+                "breakpoints": "1.7 Breakpoints",
+                "buttons": "2.1 Buttons",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

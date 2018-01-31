@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "buttons" : {
+            "home": {
+                "title": "Buttons",
+                "createLabel": "Genera un nuovo Buttons",
+                "createOrEditLabel": "Genera o modifica un Buttons",
+                "search": "Cerca Buttons"
+            },
+            "created": "&Egrave; stato generato un nuovo Buttons con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Buttons identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Buttons con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Buttons {{ id }}?"
+            },
+            "detail": {
+                "title": "Buttons"
+            },
+            "date": "Date",
+            "stage": "Stage",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}

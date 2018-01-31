@@ -5,34 +5,34 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { SizingDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing-delete-dialog.component';
-import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.service';
+import { BreakpointsDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints-delete-dialog.component';
+import { BreakpointsService } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.service';
 
 describe('Component Tests', () => {
 
-    describe('Sizing Management Delete Component', () => {
-        let comp: SizingDeleteDialogComponent;
-        let fixture: ComponentFixture<SizingDeleteDialogComponent>;
-        let service: SizingService;
+    describe('Breakpoints Management Delete Component', () => {
+        let comp: BreakpointsDeleteDialogComponent;
+        let fixture: ComponentFixture<BreakpointsDeleteDialogComponent>;
+        let service: BreakpointsService;
         let mockEventManager: any;
         let mockActiveModal: any;
 
         beforeEach(async(() => {
             TestBed.configureTestingModule({
                 imports: [ArmoryTestModule],
-                declarations: [SizingDeleteDialogComponent],
+                declarations: [BreakpointsDeleteDialogComponent],
                 providers: [
-                    SizingService
+                    BreakpointsService
                 ]
             })
-            .overrideTemplate(SizingDeleteDialogComponent, '')
+            .overrideTemplate(BreakpointsDeleteDialogComponent, '')
             .compileComponents();
         }));
 
         beforeEach(() => {
-            fixture = TestBed.createComponent(SizingDeleteDialogComponent);
+            fixture = TestBed.createComponent(BreakpointsDeleteDialogComponent);
             comp = fixture.componentInstance;
-            service = fixture.debugElement.injector.get(SizingService);
+            service = fixture.debugElement.injector.get(BreakpointsService);
             mockEventManager = fixture.debugElement.injector.get(JhiEventManager);
             mockActiveModal = fixture.debugElement.injector.get(NgbActiveModal);
         });

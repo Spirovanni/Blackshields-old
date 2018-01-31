@@ -1,7 +1,7 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { ArmorySharedModule } from '../../shared';
+import { ArmorySharedModule } from '../../../shared/index';
 import {
     SizingService,
     SizingPopupService,
@@ -14,7 +14,7 @@ import {
     sizingRoute,
     sizingPopupRoute,
     SizingResolvePagingParams,
-} from './';
+} from './index';
 
 const ENTITY_STATES = [
     ...sizingRoute,

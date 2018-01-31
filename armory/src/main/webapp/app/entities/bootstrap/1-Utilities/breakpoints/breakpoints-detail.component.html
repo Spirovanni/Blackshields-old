@@ -1,0 +1,43 @@
+
+<div *ngIf="breakpoints">
+    <h2><span jhiTranslate="armoryApp.breakpoints.detail.title">Breakpoints</span> {{breakpoints.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="armoryApp.breakpoints.date">Date</span></dt>
+        <dd>
+            <span>{{breakpoints.date | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.breakpoints.stage">Stage</span></dt>
+        <dd>
+            <span jhiTranslate="{{'armoryApp.Stage.' + breakpoints.stage}}">{{breakpoints.stage}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.breakpoints.description">Description</span></dt>
+        <dd>
+            <span>{{breakpoints.description}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.breakpoints.picture">Picture</span></dt>
+        <dd>
+            <div *ngIf="breakpoints.picture">
+                <a (click)="openFile(breakpoints.pictureContentType, breakpoints.picture)">
+                    <img [src]="'data:' + breakpoints.pictureContentType + ';base64,' + breakpoints.picture" style="max-width: 100%;" alt="breakpoints image"/>
+                </a>
+                {{breakpoints.pictureContentType}}, {{byteSize(breakpoints.picture)}}
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'breakpoints/'+ breakpoints.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

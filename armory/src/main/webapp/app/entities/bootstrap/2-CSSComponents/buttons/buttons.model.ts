@@ -1,6 +1,6 @@
-import { BaseEntity } from './../../shared';
+import { BaseEntity } from '../../../shared/index';
 
-export const enum Status {
+export const enum Stage {
     'ALPHA',
     ' BETA',
     ' SANDBOX',
@@ -8,11 +8,11 @@ export const enum Status {
     ' PRODUCTION'
 }
 
-export class Sizing implements BaseEntity {
+export class Buttons implements BaseEntity {
     constructor(
         public id?: number,
         public date?: any,
-        public status?: Status,
+        public stage?: Stage,
         public description?: string,
         public pictureContentType?: string,
         public picture?: any,

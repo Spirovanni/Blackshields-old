@@ -5,7 +5,9 @@ import { ArmoryTextalignmentdisplayModule } from './bootstrap/textalignmentdispl
 import { ArmoryFloatspositionModule } from './bootstrap/floatsposition/floatsposition.module';
 import { ArmoryColorsbackgroundModule } from './bootstrap/colorsbackground/colorsbackground.module';
 import { ArmorySpacingModule } from './bootstrap/spacing/spacing.module';
-import { ArmorySizingModule } from './sizing/sizing.module';
+import { ArmorySizingModule } from './bootstrap/sizing/sizing.module';
+import { ArmoryBreakpointsModule } from './bootstrap/breakpoints/breakpoints.module';
+import { ArmoryButtonsModule } from './bootstrap/buttons/buttons.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -16,6 +18,8 @@ import { ArmorySizingModule } from './sizing/sizing.module';
         ArmoryColorsbackgroundModule,
         ArmorySpacingModule,
         ArmorySizingModule,
+        ArmoryBreakpointsModule,
+        ArmoryButtonsModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],

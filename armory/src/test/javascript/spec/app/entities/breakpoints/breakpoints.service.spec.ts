@@ -4,14 +4,14 @@ import { MockBackend } from '@angular/http/testing';
 import { ConnectionBackend, RequestOptions, BaseRequestOptions, Http, Response, ResponseOptions } from '@angular/http';
 import { JhiDateUtils } from 'ng-jhipster';
 
-import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.service';
-import { Sizing } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.model';
+import { BreakpointsService } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.service';
+import { Breakpoints } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.model';
 import { SERVER_API_URL } from '../../../../../../main/webapp/app/app.constants';
 
 describe('Service Tests', () => {
 
-    describe('Sizing Service', () => {
-        let service: SizingService;
+    describe('Breakpoints Service', () => {
+        let service: BreakpointsService;
 
         beforeEach(async(() => {
             TestBed.configureTestingModule({
@@ -26,11 +26,11 @@ describe('Service Tests', () => {
                     },
                     Http,
                     JhiDateUtils,
-                    SizingService
+                    BreakpointsService
                 ]
             });
 
-            service = TestBed.get(SizingService);
+            service = TestBed.get(BreakpointsService);
 
             this.backend = TestBed.get(ConnectionBackend) as MockBackend;
             this.backend.connections.subscribe((connection: any) => {
@@ -44,13 +44,13 @@ describe('Service Tests', () => {
 
                 expect(this.lastConnection).toBeDefined();
 
-                const resourceUrl = SERVER_API_URL + 'api/sizings';
+                const resourceUrl = SERVER_API_URL + 'api/breakpoints';
                 expect(this.lastConnection.request.url).toEqual(resourceUrl + '/' + 123);
             });
-            it('should return Sizing', () => {
+            it('should return Breakpoints', () => {
 
-                let entity: Sizing;
-                service.find(123).subscribe((_entity: Sizing) => {
+                let entity: Breakpoints;
+                service.find(123).subscribe((_entity: Breakpoints) => {
                     entity = _entity;
                 });
 

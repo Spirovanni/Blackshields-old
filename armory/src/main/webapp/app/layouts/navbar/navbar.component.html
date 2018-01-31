@@ -502,8 +502,22 @@
                     </li>
                     <li>
                         <a class="dropdown-item" routerLink="sizing" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="collapseNavbar()">
-                            <i class="fa fa-fw fa-asterisk" aria-hidden="true"></i>
+                            <i aria-hidden="true"></i>
                             <span jhiTranslate="global.menu.entities.sizing">Sizing</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" routerLink="breakpoints" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="collapseNavbar()">
+                            <i aria-hidden="true"></i>
+                            <span jhiTranslate="global.menu.entities.breakpoints">Breakpoints</span>
+                        </a>
+                    </li>
+                    <span class="ml-1" style="font-weight:bold">2. CSS Components</span>
+                    <hr/>
+                    <li>
+                        <a class="dropdown-item" routerLink="buttons" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="collapseNavbar()">
+                            <i aria-hidden="true"></i>
+                            <span jhiTranslate="global.menu.entities.buttons">Buttons</span>
                         </a>
                     </li>
                     <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
