@@ -95,7 +95,10 @@
                 "sizing": "1.6 Sizing",
                 "breakpoints": "1.7 Breakpoints",
                 "buttons": "2.1 Buttons",
-                "navbar": "Navbar",
+                "navbar": "2.2 Navbar",
+                "groupsbadges": "2.3 Groups Badges",
+                "forms": "2.4 Forms",
+                "inputgroups": "Inputgroups",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

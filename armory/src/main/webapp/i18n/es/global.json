@@ -16,6 +16,9 @@
                 "breakpoints": "Breakpoints",
                 "buttons": "Buttons",
                 "navbar": "Navbar",
+                "groupsbadges": "Groupsbadges",
+                "forms": "Forms",
+                "inputgroups": "Inputgroups",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

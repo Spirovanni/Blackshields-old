@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "inputgroups" : {
+            "home": {
+                "title": "Inputgroups",
+                "createLabel": "Crear nuevo Inputgroups",
+                "createOrEditLabel": "Crear o editar Inputgroups",
+                "search": "Search for Inputgroups"
+            },
+            "created": "Un nuevo Inputgroups ha sido creado con el identificador {{ param }}",
+            "updated": "Un Inputgroups ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Inputgroups ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Inputgroups {{ id }}?"
+            },
+            "detail": {
+                "title": "Inputgroups"
+            },
+            "date": "Date",
+            "status": "Status",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}

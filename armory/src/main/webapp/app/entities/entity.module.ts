@@ -9,6 +9,9 @@ import { ArmorySizingModule } from './bootstrap/1-Utilities/sizing/sizing.module
 import { ArmoryBreakpointsModule } from './bootstrap/1-Utilities/breakpoints/breakpoints.module';
 import { ArmoryButtonsModule } from './bootstrap/2-CSSComponents/buttons/buttons.module';
 import { ArmoryNavbarModule } from './bootstrap/2-CSSComponents/navbar/navbar.module';
+import { ArmoryGroupsbadgesModule } from './groupsbadges/groupsbadges.module';
+import { ArmoryFormsModule } from './forms/forms.module';
+import { ArmoryInputgroupsModule } from './inputgroups/inputgroups.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -22,6 +25,9 @@ import { ArmoryNavbarModule } from './bootstrap/2-CSSComponents/navbar/navbar.mo
         ArmoryBreakpointsModule,
         ArmoryButtonsModule,
         ArmoryNavbarModule,
+        ArmoryGroupsbadgesModule,
+        ArmoryFormsModule,
+        ArmoryInputgroupsModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],

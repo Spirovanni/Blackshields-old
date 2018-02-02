@@ -14,6 +14,9 @@
     <include file="config/liquibase/changelog/20180130090457_added_entity_Breakpoints.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20180130093731_added_entity_Buttons.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20180131030911_added_entity_Navbar.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180131062703_added_entity_Groupsbadges.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180131063627_added_entity_Forms.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180201045108_added_entity_Inputgroups.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
