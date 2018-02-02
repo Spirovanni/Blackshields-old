@@ -1,13 +1,17 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
-import { ArmoryBasictypographyModule } from './bootstrap/basictypography/basictypography.module';
-import { ArmoryTextalignmentdisplayModule } from './bootstrap/textalignmentdisplay/textalignmentdisplay.module';
-import { ArmoryFloatspositionModule } from './bootstrap/floatsposition/floatsposition.module';
-import { ArmoryColorsbackgroundModule } from './bootstrap/colorsbackground/colorsbackground.module';
-import { ArmorySpacingModule } from './bootstrap/spacing/spacing.module';
-import { ArmorySizingModule } from './bootstrap/sizing/sizing.module';
-import { ArmoryBreakpointsModule } from './bootstrap/breakpoints/breakpoints.module';
-import { ArmoryButtonsModule } from './bootstrap/buttons/buttons.module';
+import { ArmoryBasictypographyModule } from './bootstrap/1-Utilities/basictypography/basictypography.module';
+import { ArmoryTextalignmentdisplayModule } from './bootstrap/1-Utilities/textalignmentdisplay/textalignmentdisplay.module';
+import { ArmoryFloatspositionModule } from './bootstrap/1-Utilities/floatsposition/floatsposition.module';
+import { ArmoryColorsbackgroundModule } from './bootstrap/1-Utilities/colorsbackground/colorsbackground.module';
+import { ArmorySpacingModule } from './bootstrap/1-Utilities/spacing/spacing.module';
+import { ArmorySizingModule } from './bootstrap/1-Utilities/sizing/sizing.module';
+import { ArmoryBreakpointsModule } from './bootstrap/1-Utilities/breakpoints/breakpoints.module';
+import { ArmoryButtonsModule } from './bootstrap/2-CSSComponents/buttons/buttons.module';
+import { ArmoryNavbarModule } from './bootstrap/2-CSSComponents/navbar/navbar.module';
+import { ArmoryGroupsbadgesModule } from './groupsbadges/groupsbadges.module';
+import { ArmoryFormsModule } from './forms/forms.module';
+import { ArmoryInputgroupsModule } from './inputgroups/inputgroups.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -20,6 +24,10 @@ import { ArmoryButtonsModule } from './bootstrap/buttons/buttons.module';
         ArmorySizingModule,
         ArmoryBreakpointsModule,
         ArmoryButtonsModule,
+        ArmoryNavbarModule,
+        ArmoryGroupsbadgesModule,
+        ArmoryFormsModule,
+        ArmoryInputgroupsModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],

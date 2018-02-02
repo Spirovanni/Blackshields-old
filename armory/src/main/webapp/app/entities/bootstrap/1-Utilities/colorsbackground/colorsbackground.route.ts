@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot, Routes } from '@angular/router';
 import { JhiPaginationUtil } from 'ng-jhipster';
 
-import { UserRouteAccessService } from '../../../shared/index';
+import { UserRouteAccessService } from '../../../../shared/index';
 import { ColorsbackgroundComponent } from './colorsbackground.component';
 import { ColorsbackgroundDetailComponent } from './colorsbackground-detail.component';
 import { ColorsbackgroundPopupComponent } from './colorsbackground-dialog.component';

@@ -5,9 +5,9 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { FloatspositionDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/floatsposition/floatsposition-dialog.component';
-import { FloatspositionService } from '../../../../../../main/webapp/app/entities/bootstrap/floatsposition/floatsposition.service';
-import { Floatsposition } from '../../../../../../main/webapp/app/entities/bootstrap/floatsposition/floatsposition.model';
+import { FloatspositionDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition-dialog.component';
+import { FloatspositionService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.service';
+import { Floatsposition } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.model';
 
 describe('Component Tests', () => {
 

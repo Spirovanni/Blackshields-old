@@ -5,8 +5,8 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { FloatspositionDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/floatsposition/floatsposition-delete-dialog.component';
-import { FloatspositionService } from '../../../../../../main/webapp/app/entities/bootstrap/floatsposition/floatsposition.service';
+import { FloatspositionDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition-delete-dialog.component';
+import { FloatspositionService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/floatsposition/floatsposition.service';
 
 describe('Component Tests', () => {
 

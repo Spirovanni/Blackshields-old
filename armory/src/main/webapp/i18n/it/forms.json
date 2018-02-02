@@ -1,0 +1,24 @@
+{
+    "armoryApp": {
+        "forms" : {
+            "home": {
+                "title": "Forms",
+                "createLabel": "Genera un nuovo Forms",
+                "createOrEditLabel": "Genera o modifica un Forms",
+                "search": "Cerca Forms"
+            },
+            "created": "&Egrave; stato generato un nuovo Forms con identificatore {{ param }}",
+            "updated": "&Egrave; stato aggiornato Forms identificato da {{ param }}",
+            "deleted": "&Egrave; stato eliminato Forms con identificatore {{ param }}",
+            "delete": {
+                "question": "Sei sicuro di volere eliminare Forms {{ id }}?"
+            },
+            "detail": {
+                "title": "Forms"
+            },
+            "date": "Date",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}

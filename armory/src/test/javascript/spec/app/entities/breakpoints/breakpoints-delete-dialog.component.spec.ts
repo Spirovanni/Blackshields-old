@@ -5,8 +5,8 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { BreakpointsDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints-delete-dialog.component';
-import { BreakpointsService } from '../../../../../../main/webapp/app/entities/bootstrap/breakpoints/breakpoints.service';
+import { BreakpointsDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints-delete-dialog.component';
+import { BreakpointsService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/breakpoints/breakpoints.service';
 
 describe('Component Tests', () => {
 

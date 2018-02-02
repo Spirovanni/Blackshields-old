@@ -1,4 +1,4 @@
-import { BaseEntity } from '../../../shared/index';
+import { BaseEntity } from '../../../../shared/index';
 
 export const enum Status {
     'ALPHA',

@@ -5,9 +5,9 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { ButtonsDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons-dialog.component';
-import { ButtonsService } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.service';
-import { Buttons } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.model';
+import { ButtonsDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons-dialog.component';
+import { ButtonsService } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.service';
+import { Buttons } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.model';
 
 describe('Component Tests', () => {
 

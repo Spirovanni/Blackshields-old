@@ -5,7 +5,7 @@ import { JhiEventManager, JhiParseLinks, JhiAlertService, JhiDataUtils } from 'n
 
 import { Basictypography } from './basictypography.model';
 import { BasictypographyService } from './basictypography.service';
-import { ITEMS_PER_PAGE, Principal, ResponseWrapper } from '../../../shared/index';
+import { ITEMS_PER_PAGE, Principal, ResponseWrapper } from '../../../../shared/index';
 
 @Component({
     selector: 'jhi-basictypography',

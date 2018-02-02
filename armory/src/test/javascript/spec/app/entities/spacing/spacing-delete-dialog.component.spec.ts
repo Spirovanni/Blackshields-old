@@ -5,8 +5,8 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { SpacingDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/spacing/spacing-delete-dialog.component';
-import { SpacingService } from '../../../../../../main/webapp/app/entities/bootstrap/spacing/spacing.service';
+import { SpacingDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing-delete-dialog.component';
+import { SpacingService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.service';
 
 describe('Component Tests', () => {
 

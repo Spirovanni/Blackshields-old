@@ -4,8 +4,8 @@ import { MockBackend } from '@angular/http/testing';
 import { ConnectionBackend, RequestOptions, BaseRequestOptions, Http, Response, ResponseOptions } from '@angular/http';
 import { JhiDateUtils } from 'ng-jhipster';
 
-import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.service';
-import { Sizing } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.model';
+import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.service';
+import { Sizing } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.model';
 import { SERVER_API_URL } from '../../../../../../main/webapp/app/app.constants';
 
 describe('Service Tests', () => {

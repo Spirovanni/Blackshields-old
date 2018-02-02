@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot, Routes } from '@angular/router';
 import { JhiPaginationUtil } from 'ng-jhipster';
 
-import { UserRouteAccessService } from '../../../shared/index';
+import { UserRouteAccessService } from '../../../../shared/index';
 import { SizingComponent } from './sizing.component';
 import { SizingDetailComponent } from './sizing-detail.component';
 import { SizingPopupComponent } from './sizing-dialog.component';

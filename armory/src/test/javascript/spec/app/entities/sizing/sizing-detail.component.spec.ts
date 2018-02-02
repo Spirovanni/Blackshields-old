@@ -3,9 +3,9 @@ import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 import { Observable } from 'rxjs/Observable';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { SizingDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing-detail.component';
-import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.service';
-import { Sizing } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.model';
+import { SizingDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing-detail.component';
+import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.service';
+import { Sizing } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.model';
 
 describe('Component Tests', () => {
 

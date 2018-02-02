@@ -4,8 +4,8 @@ import { MockBackend } from '@angular/http/testing';
 import { ConnectionBackend, RequestOptions, BaseRequestOptions, Http, Response, ResponseOptions } from '@angular/http';
 import { JhiDateUtils } from 'ng-jhipster';
 
-import { SpacingService } from '../../../../../../main/webapp/app/entities/bootstrap/spacing/spacing.service';
-import { Spacing } from '../../../../../../main/webapp/app/entities/bootstrap/spacing/spacing.model';
+import { SpacingService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.service';
+import { Spacing } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.model';
 import { SERVER_API_URL } from '../../../../../../main/webapp/app/app.constants';
 
 describe('Service Tests', () => {

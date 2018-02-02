@@ -3,9 +3,9 @@ import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 import { Observable } from 'rxjs/Observable';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { SpacingDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/spacing/spacing-detail.component';
-import { SpacingService } from '../../../../../../main/webapp/app/entities/bootstrap/spacing/spacing.service';
-import { Spacing } from '../../../../../../main/webapp/app/entities/bootstrap/spacing/spacing.model';
+import { SpacingDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing-detail.component';
+import { SpacingService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.service';
+import { Spacing } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/spacing/spacing.model';
 
 describe('Component Tests', () => {
 

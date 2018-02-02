@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot, Routes } from '@angular/router';
 import { JhiPaginationUtil } from 'ng-jhipster';
 
-import { UserRouteAccessService } from '../../../shared/index';
+import { UserRouteAccessService } from '../../../../shared/index';
 import { FloatspositionComponent } from './floatsposition.component';
 import { FloatspositionDetailComponent } from './floatsposition-detail.component';
 import { FloatspositionPopupComponent } from './floatsposition-dialog.component';

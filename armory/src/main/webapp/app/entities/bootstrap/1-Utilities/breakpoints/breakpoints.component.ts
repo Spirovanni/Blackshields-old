@@ -5,7 +5,7 @@ import { JhiEventManager, JhiParseLinks, JhiAlertService, JhiDataUtils } from 'n
 
 import { Breakpoints } from './breakpoints.model';
 import { BreakpointsService } from './breakpoints.service';
-import { ITEMS_PER_PAGE, Principal, ResponseWrapper } from '../../../shared/index';
+import { ITEMS_PER_PAGE, Principal, ResponseWrapper } from '../../../../shared/index';
 
 @Component({
     selector: 'jhi-breakpoints',

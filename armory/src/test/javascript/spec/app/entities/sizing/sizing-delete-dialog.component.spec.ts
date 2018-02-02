@@ -5,8 +5,8 @@ import { Observable } from 'rxjs/Observable';
 import { JhiEventManager } from 'ng-jhipster';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { SizingDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing-delete-dialog.component';
-import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.service';
+import { SizingDeleteDialogComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing-delete-dialog.component';
+import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.service';
 
 describe('Component Tests', () => {
 

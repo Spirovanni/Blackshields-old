@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot, Routes } from '@angular/router';
 import { JhiPaginationUtil } from 'ng-jhipster';
 
-import { UserRouteAccessService } from '../../../shared/index';
+import { UserRouteAccessService } from '../../../../shared/index';
 import { TextalignmentdisplayComponent } from './textalignmentdisplay.component';
 import { TextalignmentdisplayDetailComponent } from './textalignmentdisplay-detail.component';
 import { TextalignmentdisplayPopupComponent } from './textalignmentdisplay-dialog.component';

@@ -1,0 +1,43 @@
+
+<div *ngIf="navbar">
+    <h2><span jhiTranslate="armoryApp.navbar.detail.title">Navbar</span> {{navbar.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="armoryApp.navbar.date">Date</span></dt>
+        <dd>
+            <span>{{navbar.date | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.navbar.status">Status</span></dt>
+        <dd>
+            <span jhiTranslate="{{'armoryApp.Status.' + navbar.status}}">{{navbar.status}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.navbar.description">Description</span></dt>
+        <dd>
+            <span>{{navbar.description}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.navbar.picture">Picture</span></dt>
+        <dd>
+            <div *ngIf="navbar.picture">
+                <a (click)="openFile(navbar.pictureContentType, navbar.picture)">
+                    <img [src]="'data:' + navbar.pictureContentType + ';base64,' + navbar.picture" style="max-width: 100%;" alt="navbar image"/>
+                </a>
+                {{navbar.pictureContentType}}, {{byteSize(navbar.picture)}}
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'navbar/'+ navbar.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

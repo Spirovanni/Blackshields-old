@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot, Routes } from '@angular/router';
 import { JhiPaginationUtil } from 'ng-jhipster';
 
-import { UserRouteAccessService } from '../../../shared/index';
+import { UserRouteAccessService } from '../../../../shared/index';
 import { BreakpointsComponent } from './breakpoints.component';
 import { BreakpointsDetailComponent } from './breakpoints-detail.component';
 import { BreakpointsPopupComponent } from './breakpoints-dialog.component';

@@ -1,0 +1,43 @@
+
+<div *ngIf="groupsbadges">
+    <h2><span jhiTranslate="armoryApp.groupsbadges.detail.title">Groupsbadges</span> {{groupsbadges.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="armoryApp.groupsbadges.date">Date</span></dt>
+        <dd>
+            <span>{{groupsbadges.date | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.groupsbadges.status">Status</span></dt>
+        <dd>
+            <span jhiTranslate="{{'armoryApp.Status.' + groupsbadges.status}}">{{groupsbadges.status}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.groupsbadges.description">Description</span></dt>
+        <dd>
+            <span>{{groupsbadges.description}}</span>
+        </dd>
+        <dt><span jhiTranslate="armoryApp.groupsbadges.picture">Picture</span></dt>
+        <dd>
+            <div *ngIf="groupsbadges.picture">
+                <a (click)="openFile(groupsbadges.pictureContentType, groupsbadges.picture)">
+                    <img [src]="'data:' + groupsbadges.pictureContentType + ';base64,' + groupsbadges.picture" style="max-width: 100%;" alt="groupsbadges image"/>
+                </a>
+                {{groupsbadges.pictureContentType}}, {{byteSize(groupsbadges.picture)}}
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'groupsbadges/'+ groupsbadges.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

@@ -3,9 +3,9 @@ import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 import { Observable } from 'rxjs/Observable';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { ButtonsDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons-detail.component';
-import { ButtonsService } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.service';
-import { Buttons } from '../../../../../../main/webapp/app/entities/bootstrap/buttons/buttons.model';
+import { ButtonsDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons-detail.component';
+import { ButtonsService } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.service';
+import { Buttons } from '../../../../../../main/webapp/app/entities/bootstrap/2-CSSComponents/buttons/buttons.model';
 
 describe('Component Tests', () => {
 

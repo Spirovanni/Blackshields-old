@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot, Routes } from '@angular/router';
 import { JhiPaginationUtil } from 'ng-jhipster';
 
-import { UserRouteAccessService } from '../../../shared/index';
+import { UserRouteAccessService } from '../../../../shared/index';
 import { ButtonsComponent } from './buttons.component';
 import { ButtonsDetailComponent } from './buttons-detail.component';
 import { ButtonsPopupComponent } from './buttons-dialog.component';

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot, Routes } from '@angular/router';
 import { JhiPaginationUtil } from 'ng-jhipster';
 
-import { UserRouteAccessService } from '../../../shared/index';
+import { UserRouteAccessService } from '../../../../shared/index';
 import { SpacingComponent } from './spacing.component';
 import { SpacingDetailComponent } from './spacing-detail.component';
 import { SpacingPopupComponent } from './spacing-dialog.component';

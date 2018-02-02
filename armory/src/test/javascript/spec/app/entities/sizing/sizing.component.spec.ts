@@ -4,9 +4,9 @@ import { Observable } from 'rxjs/Observable';
 import { Headers } from '@angular/http';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { SizingComponent } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.component';
-import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.service';
-import { Sizing } from '../../../../../../main/webapp/app/entities/bootstrap/sizing/sizing.model';
+import { SizingComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.component';
+import { SizingService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.service';
+import { Sizing } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.model';
 
 describe('Component Tests', () => {
 

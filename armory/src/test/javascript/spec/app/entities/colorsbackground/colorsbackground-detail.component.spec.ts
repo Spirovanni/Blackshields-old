@@ -3,9 +3,9 @@ import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 import { Observable } from 'rxjs/Observable';
 
 import { ArmoryTestModule } from '../../../test.module';
-import { ColorsbackgroundDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground-detail.component';
-import { ColorsbackgroundService } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.service';
-import { Colorsbackground } from '../../../../../../main/webapp/app/entities/bootstrap/colorsbackground/colorsbackground.model';
+import { ColorsbackgroundDetailComponent } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground-detail.component';
+import { ColorsbackgroundService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.service';
+import { Colorsbackground } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/colorsbackground/colorsbackground.model';
 
 describe('Component Tests', () => {
 

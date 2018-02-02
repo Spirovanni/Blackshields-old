@@ -1,0 +1,25 @@
+{
+    "armoryApp": {
+        "groupsbadges" : {
+            "home": {
+                "title": "Groupsbadges",
+                "createLabel": "Crear nuevo Groupsbadges",
+                "createOrEditLabel": "Crear o editar Groupsbadges",
+                "search": "Search for Groupsbadges"
+            },
+            "created": "Un nuevo Groupsbadges ha sido creado con el identificador {{ param }}",
+            "updated": "Un Groupsbadges ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Groupsbadges ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Groupsbadges {{ id }}?"
+            },
+            "detail": {
+                "title": "Groupsbadges"
+            },
+            "date": "Date",
+            "status": "Status",
+            "description": "Description",
+            "picture": "Picture"
+        }
+    }
+}

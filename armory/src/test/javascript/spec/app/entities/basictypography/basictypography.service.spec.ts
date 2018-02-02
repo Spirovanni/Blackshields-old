@@ -4,8 +4,8 @@ import { MockBackend } from '@angular/http/testing';
 import { ConnectionBackend, RequestOptions, BaseRequestOptions, Http, Response, ResponseOptions } from '@angular/http';
 import { JhiDateUtils } from 'ng-jhipster';
 
-import { BasictypographyService } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.service';
-import { Basictypography } from '../../../../../../main/webapp/app/entities/bootstrap/basictypography/basictypography.model';
+import { BasictypographyService } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.service';
+import { Basictypography } from '../../../../../../main/webapp/app/entities/bootstrap/1-Utilities/basictypography/basictypography.model';
 import { SERVER_API_URL } from '../../../../../../main/webapp/app/app.constants';
 
 describe('Service Tests', () => {

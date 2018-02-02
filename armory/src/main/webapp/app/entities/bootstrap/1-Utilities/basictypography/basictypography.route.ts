@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot, Routes } from '@angular/router';
 import { JhiPaginationUtil } from 'ng-jhipster';
 
-import { UserRouteAccessService } from '../../../shared/index';
+import { UserRouteAccessService } from '../../../../shared/index';
 import { BasictypographyComponent } from './basictypography.component';
 import { BasictypographyDetailComponent } from './basictypography-detail.component';
 import { BasictypographyPopupComponent } from './basictypography-dialog.component';
