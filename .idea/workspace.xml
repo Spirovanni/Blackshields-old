@@ -27,8 +27,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/primeng/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="109" column="29" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="34" />
+            <state relative-caret-position="17">
+              <caret line="109" column="25" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -50,40 +50,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1517895532249" expanded="false" signature="2148:2181" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="2258:2274" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="10493:10509" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="11443:11459" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="11577:11598" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="16855:16871" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="19373:19389" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="19971:19987" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="20571:20587" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="23155:23171" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="27292:27308" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="28233:28249" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="30792:30808" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="31392:31408" ph="..." />
-                <marker date="1517895532249" expanded="false" signature="35984:36000" ph="..." />
+                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#22;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#3;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#4;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#5;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#6;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#7;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#8;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#9;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#10;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#11;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navbar.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1403">
-              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,8 +181,8 @@
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/forms.json" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/groupsbadges.json" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/i18n/en/global.json" />
-        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
         <option value="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html" />
       </list>
     </option>
   </component>
@@ -207,9 +206,9 @@
     <handled-path value="$PROJECT_DIR$/registry/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="240" />
+    <option name="x" value="173" />
     <option name="y" value="27" />
-    <option name="width" value="983" />
+    <option name="width" value="1100" />
     <option name="height" value="692" />
   </component>
   <component name="ProjectView">
@@ -532,15 +531,15 @@
       <workItem from="1517192955000" duration="55452000" />
       <workItem from="1517453541776" duration="61000" />
       <workItem from="1517456316444" duration="9789000" />
-      <workItem from="1517809353814" duration="6854000" />
+      <workItem from="1517809353814" duration="12206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339244000" />
+    <option name="totallyTimeSpent" value="344596000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="27" width="983" height="692" extended-state="0" />
+    <frame x="173" y="27" width="1100" height="692" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -551,7 +550,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844827" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3637931" sideWeight="0.48965517" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4586207" sideWeight="0.48965517" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -992,14 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/primeng/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="29" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/armory/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1048,36 +1039,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html">
+    <entry file="file://$PROJECT_DIR$/primeng/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
-          <folding>
-            <marker date="1517895532249" expanded="false" signature="2148:2181" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="2258:2274" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="10493:10509" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="11443:11459" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="11577:11598" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="16855:16871" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="19373:19389" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="19971:19987" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="20571:20587" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="23155:23171" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="27292:27308" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="28233:28249" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="30792:30808" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="31392:31408" ph="..." />
-            <marker date="1517895532249" expanded="false" signature="35984:36000" ph="..." />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="109" column="25" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1403">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="17">
+          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/layouts/navbar/navbar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#22;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#6;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#7;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#8;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#9;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#10;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#11;n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#ul#0;n#li#2;n#ul#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
