@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b8fc28-4e78-4940-ada5-1181fb4eace6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/typings.d.ts" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Order of Operations.docx" afterPath="$PROJECT_DIR$/Order of Operations.docx" />
       <change beforePath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app.module.ts" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app.module.ts" />
-      <change beforePath="$PROJECT_DIR$/battlements/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -56,12 +58,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
               <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="typings.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/typings.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/buttons/button/buttondemo.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/buttons/splitbutton/splitbuttondemo.module.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/buttons/button/buttondemo.module.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/buttons/splitbutton/splitbuttondemo.component.ts" />
@@ -150,8 +163,9 @@
         <option value="$PROJECT_DIR$/ngx-admin-master/package.json" />
         <option value="$PROJECT_DIR$/battlements/package.json" />
         <option value="$PROJECT_DIR$/battlements/src/main/webapp/app/app.main.ts" />
-        <option value="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app.module.ts" />
         <option value="$PROJECT_DIR$/battlements/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/typings.d.ts" />
+        <option value="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app.module.ts" />
       </list>
     </option>
   </component>
@@ -431,12 +445,12 @@
       <workItem from="1517192955000" duration="55452000" />
       <workItem from="1517453541776" duration="61000" />
       <workItem from="1517456316444" duration="9789000" />
-      <workItem from="1517809353814" duration="29568000" />
+      <workItem from="1517809353814" duration="30393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="361958000" />
+    <option name="totallyTimeSpent" value="362783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="881" height="728" extended-state="0" />
@@ -611,20 +625,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/1-Utilities/sizing/sizing.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/breakpoints.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="77" lean-forward="false" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/activate.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1018,16 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ngx-admin-master/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1036,11 +1026,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/typings.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
