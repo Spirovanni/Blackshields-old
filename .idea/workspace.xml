@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b8fc28-4e78-4940-ada5-1181fb4eace6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/.gitkeep" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/alan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/camera1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/camera2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/camera3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/camera4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/cover1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/cover2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/cover3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/eva.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/jack.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/kate.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/kitten-cosmic.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/kitten-default.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/lee.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/nick.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/square_pattern.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/square_pattern_cosmic.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/images/team.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/content.inline.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/content.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce-small.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce-small.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce-small.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce-small.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/fonts/tinymce.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/img/anchor.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/img/loader.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/img/object.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/img/trans.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/skin.ie7.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/skins/lightgray/skin.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/vendors/echarts.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/assets/vendors/echarts.world.min.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/battlements/webpack/webpack.common.js" afterPath="$PROJECT_DIR$/battlements/webpack/webpack.common.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,14 +58,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app-routing.module.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app-routing.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
+            <state relative-caret-position="187">
               <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
                 <element signature="e#0#69#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.common.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/battlements/webpack/webpack.common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/buttons/button/buttondemo.module.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/buttons/splitbutton/splitbuttondemo.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.component.html" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/i18n/en/global.json" />
@@ -191,6 +165,7 @@
         <option value="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/typings.d.ts" />
         <option value="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app.module.ts" />
         <option value="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/battlements/webpack/webpack.common.js" />
       </list>
     </option>
   </component>
@@ -284,6 +259,12 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="battlements" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
@@ -470,15 +451,16 @@
       <workItem from="1517192955000" duration="55452000" />
       <workItem from="1517453541776" duration="61000" />
       <workItem from="1517456316444" duration="9789000" />
-      <workItem from="1517809353814" duration="32774000" />
+      <workItem from="1517809353814" duration="33916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365164000" />
+    <option name="totallyTimeSpent" value="366306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1111" height="728" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -493,7 +475,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14611872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14611872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2492891" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -649,13 +631,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/basictypography.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/buttons.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -1078,11 +1053,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
+        <state relative-caret-position="187">
           <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="e#0#69#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battlements/webpack/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
