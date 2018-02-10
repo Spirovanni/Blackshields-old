@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b8fc28-4e78-4940-ada5-1181fb4eace6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/battlements/webpack/webpack.common.js" afterPath="$PROJECT_DIR$/battlements/webpack/webpack.common.js" />
+      <change beforePath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/rooms.component.scss" afterPath="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/rooms.component.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,12 +69,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.common.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpack.common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/battlements/webpack/webpack.common.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="245">
               <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rooms.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/rooms.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pages.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/pages/pages.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/primeng/buttons/splitbutton/splitbuttondemo.component.ts" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/layouts/navbar/navbar.component.html" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/i18n/en/global.json" />
         <option value="$PROJECT_DIR$/barbican/src/main/webapp/app/vendor.ts" />
@@ -166,6 +186,7 @@
         <option value="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app.module.ts" />
         <option value="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/battlements/webpack/webpack.common.js" />
+        <option value="$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/rooms.component.scss" />
       </list>
     </option>
   </component>
@@ -259,6 +280,17 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blkshlds" type="462c0819:PsiDirectoryNode" />
+              <item name="battlements" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ngx-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blkshlds" type="b2602c69:ProjectViewProjectNode" />
@@ -451,12 +483,12 @@
       <workItem from="1517192955000" duration="55452000" />
       <workItem from="1517453541776" duration="61000" />
       <workItem from="1517456316444" duration="9789000" />
-      <workItem from="1517809353814" duration="33916000" />
+      <workItem from="1517809353814" duration="35058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366306000" />
+    <option name="totallyTimeSpent" value="367448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1111" height="728" extended-state="0" />
@@ -631,20 +663,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/i18n/en/buttons.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="11" column="79" lean-forward="false" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/bootstrap/2-CSSComponents">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/armory/src/main/webapp/app/entities/entity.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1066,6 +1084,24 @@
         <state relative-caret-position="245">
           <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/pages/dashboard/rooms/rooms.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battlements/src/main/webapp/app/ngx-admin/pages/pages.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
